@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-facade-xml type="seed">
+    <moqui.basic.LocalizedMessage localized="程序" lastUpdatedStamp="1439791417112" original="Application" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="查找选项" lastUpdatedStamp="1439791562830" original="Find Options" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="POP Commerce管理" lastUpdatedStamp="1439791750578" original="POP Commerce Admin" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="产品类型" lastUpdatedStamp="1439791805458" original="Product Type" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="检索任意字段" lastUpdatedStamp="1439791875436" original="Search Any Field" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="任意字段" lastUpdatedStamp="1439791897554" original="Any Field" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="其他ID" lastUpdatedStamp="1439791920537" original="Other IDs" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="种类" lastUpdatedStamp="1439791967083" original="Category" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="数量/单位" lastUpdatedStamp="1439791985577" original="Amount/UOM" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="特征" lastUpdatedStamp="1439792031369" original="Feature" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="特征2" lastUpdatedStamp="1439792046644" original="Feature 2" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="数量 单位" lastUpdatedStamp="1439792123977" original="Amount UOM" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="产品目录" lastUpdatedStamp="1439794164624" original="Catalog" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="产品查询" lastUpdatedStamp="1439794456384" original="Search Products" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="克隆产品" lastUpdatedStamp="1439801920632" original="Clone Product" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="类" lastUpdatedStamp="1439801939650" original="Class" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="数量" lastUpdatedStamp="1439801948564" original="Amount" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="单位" lastUpdatedStamp="1439801957071" original="UOM" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="特征" lastUpdatedStamp="1439801968952" original="Features" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="尺寸" lastUpdatedStamp="1439801983983" original="Dimensions" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="分类" lastUpdatedStamp="1439802002992" original="Catgories" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="关联" lastUpdatedStamp="1439802019951" original="Associated" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="价格" lastUpdatedStamp="1439802029018" original="Prices" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="添加尺寸" lastUpdatedStamp="1439802065041" original="Add Dimension" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="添加特征" lastUpdatedStamp="1439802050513" original="Apply Feature" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="产品" lastUpdatedStamp="1439802740736" original="Products" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="产品" lastUpdatedStamp="1439802779073" original="Product" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="分类" lastUpdatedStamp="1439802819996" original="Categories" locale="zh_CN"/>
+</entity-facade-xml>

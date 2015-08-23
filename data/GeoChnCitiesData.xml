@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="seed">
+    <!-- see https://en.wikipedia.org/wiki/ISO_3166-2:CN -->
+    <!-- see http://www.stats.gov.cn/tjsj/tjbz/xzqhdm/201504/t20150415_712722.html -->
+    <!-- 地级市数据 -->
+    <Geo geoCodeNumeric="110100" geoId="CHN_1101" geoNameLocal="市辖区" geoTypeEnumId="GEOT_CITY" geoName="市辖区"/>
+    <Geo geoCodeNumeric="110200" geoId="CHN_1102" geoNameLocal="县" geoTypeEnumId="GEOT_CITY" geoName="县"/>
+    <Geo geoCodeNumeric="120100" geoId="CHN_1201" geoNameLocal="市辖区" geoTypeEnumId="GEOT_CITY" geoName="市辖区"/>
+    <Geo geoCodeNumeric="120200" geoId="CHN_1202" geoNameLocal="县" geoTypeEnumId="GEOT_CITY" geoName="县"/>
+    <Geo geoCodeNumeric="130100" geoId="CHN_1301" geoNameLocal="石家庄市" geoTypeEnumId="GEOT_CITY" geoName="石家庄市"/>
+    <Geo geoCodeNumeric="130200" geoId="CHN_1302" geoNameLocal="唐山市" geoTypeEnumId="GEOT_CITY" geoName="唐山市"/>
+    <Geo geoCodeNumeric="130300" geoId="CHN_1303" geoNameLocal="秦皇岛市" geoTypeEnumId="GEOT_CITY" geoName="秦皇岛市"/>
+    <Geo geoCodeNumeric="130400" geoId="CHN_1304" geoNameLocal="邯郸市" geoTypeEnumId="GEOT_CITY" geoName="邯郸市"/>
+    <Geo geoCodeNumeric="130500" geoId="CHN_1305" geoNameLocal="邢台市" geoTypeEnumId="GEOT_CITY" geoName="邢台市"/>
+    <Geo geoCodeNumeric="130600" geoId="CHN_1306" geoNameLocal="保定市" geoTypeEnumId="GEOT_CITY" geoName="保定市"/>
+    <Geo geoCodeNumeric="130700" geoId="CHN_1307" geoNameLocal="张家口市" geoTypeEnumId="GEOT_CITY" geoName="张家口市"/>
+    <Geo geoCodeNumeric="130800" geoId="CHN_1308" geoNameLocal="承德市" geoTypeEnumId="GEOT_CITY" geoName="承德市"/>
+    <Geo geoCodeNumeric="130900" geoId="CHN_1309" geoNameLocal="沧州市" geoTypeEnumId="GEOT_CITY" geoName="沧州市"/>
+    <Geo geoCodeNumeric="131000" geoId="CHN_1310" geoNameLocal="廊坊市" geoTypeEnumId="GEOT_CITY" geoName="廊坊市"/>
+    <Geo geoCodeNumeric="131100" geoId="CHN_1311" geoNameLocal="衡水市" geoTypeEnumId="GEOT_CITY" geoName="衡水市"/>
+    <Geo geoCodeNumeric="140100" geoId="CHN_1401" geoNameLocal="太原市" geoTypeEnumId="GEOT_CITY" geoName="太原市"/>
+    <Geo geoCodeNumeric="140200" geoId="CHN_1402" geoNameLocal="大同市" geoTypeEnumId="GEOT_CITY" geoName="大同市"/>
+    <Geo geoCodeNumeric="140300" geoId="CHN_1403" geoNameLocal="阳泉市" geoTypeEnumId="GEOT_CITY" geoName="阳泉市"/>
+    <Geo geoCodeNumeric="140400" geoId="CHN_1404" geoNameLocal="长治市" geoTypeEnumId="GEOT_CITY" geoName="长治市"/>
+    <Geo geoCodeNumeric="140500" geoId="CHN_1405" geoNameLocal="晋城市" geoTypeEnumId="GEOT_CITY" geoName="晋城市"/>
+    <Geo geoCodeNumeric="140600" geoId="CHN_1406" geoNameLocal="朔州市" geoTypeEnumId="GEOT_CITY" geoName="朔州市"/>
+    <Geo geoCodeNumeric="140700" geoId="CHN_1407" geoNameLocal="晋中市" geoTypeEnumId="GEOT_CITY" geoName="晋中市"/>
+    <Geo geoCodeNumeric="140800" geoId="CHN_1408" geoNameLocal="运城市" geoTypeEnumId="GEOT_CITY" geoName="运城市"/>
+    <Geo geoCodeNumeric="140900" geoId="CHN_1409" geoNameLocal="忻州市" geoTypeEnumId="GEOT_CITY" geoName="忻州市"/>
+    <Geo geoCodeNumeric="141000" geoId="CHN_1410" geoNameLocal="临汾市" geoTypeEnumId="GEOT_CITY" geoName="临汾市"/>
+    <Geo geoCodeNumeric="141100" geoId="CHN_1411" geoNameLocal="吕梁市" geoTypeEnumId="GEOT_CITY" geoName="吕梁市"/>
+    <Geo geoCodeNumeric="150100" geoId="CHN_1501" geoNameLocal="呼和浩特市" geoTypeEnumId="GEOT_CITY" geoName="呼和浩特市"/>
+    <Geo geoCodeNumeric="150200" geoId="CHN_1502" geoNameLocal="包头市" geoTypeEnumId="GEOT_CITY" geoName="包头市"/>
+    <Geo geoCodeNumeric="150300" geoId="CHN_1503" geoNameLocal="乌海市" geoTypeEnumId="GEOT_CITY" geoName="乌海市"/>
+    <Geo geoCodeNumeric="150400" geoId="CHN_1504" geoNameLocal="赤峰市" geoTypeEnumId="GEOT_CITY" geoName="赤峰市"/>
+    <Geo geoCodeNumeric="150500" geoId="CHN_1505" geoNameLocal="通辽市" geoTypeEnumId="GEOT_CITY" geoName="通辽市"/>
+    <Geo geoCodeNumeric="150600" geoId="CHN_1506" geoNameLocal="鄂尔多斯市" geoTypeEnumId="GEOT_CITY" geoName="鄂尔多斯市"/>
+    <Geo geoCodeNumeric="150700" geoId="CHN_1507" geoNameLocal="呼伦贝尔市" geoTypeEnumId="GEOT_CITY" geoName="呼伦贝尔市"/>
+    <Geo geoCodeNumeric="150800" geoId="CHN_1508" geoNameLocal="巴彦淖尔市" geoTypeEnumId="GEOT_CITY" geoName="巴彦淖尔市"/>
+    <Geo geoCodeNumeric="150900" geoId="CHN_1509" geoNameLocal="乌兰察布市" geoTypeEnumId="GEOT_CITY" geoName="乌兰察布市"/>
+    <Geo geoCodeNumeric="152200" geoId="CHN_1522" geoNameLocal="兴安盟" geoTypeEnumId="GEOT_CITY" geoName="兴安盟"/>
+    <Geo geoCodeNumeric="152500" geoId="CHN_1525" geoNameLocal="锡林郭勒盟" geoTypeEnumId="GEOT_CITY" geoName="锡林郭勒盟"/>
+    <Geo geoCodeNumeric="152900" geoId="CHN_1529" geoNameLocal="阿拉善盟" geoTypeEnumId="GEOT_CITY" geoName="阿拉善盟"/>
+    <Geo geoCodeNumeric="210100" geoId="CHN_2101" geoNameLocal="沈阳市" geoTypeEnumId="GEOT_CITY" geoName="沈阳市"/>
+    <Geo geoCodeNumeric="210200" geoId="CHN_2102" geoNameLocal="大连市" geoTypeEnumId="GEOT_CITY" geoName="大连市"/>
+    <Geo geoCodeNumeric="210300" geoId="CHN_2103" geoNameLocal="鞍山市" geoTypeEnumId="GEOT_CITY" geoName="鞍山市"/>
+    <Geo geoCodeNumeric="210400" geoId="CHN_2104" geoNameLocal="抚顺市" geoTypeEnumId="GEOT_CITY" geoName="抚顺市"/>
+    <Geo geoCodeNumeric="210500" geoId="CHN_2105" geoNameLocal="本溪市" geoTypeEnumId="GEOT_CITY" geoName="本溪市"/>
+    <Geo geoCodeNumeric="210600" geoId="CHN_2106" geoNameLocal="丹东市" geoTypeEnumId="GEOT_CITY" geoName="丹东市"/>
+    <Geo geoCodeNumeric="210700" geoId="CHN_2107" geoNameLocal="锦州市" geoTypeEnumId="GEOT_CITY" geoName="锦州市"/>
+    <Geo geoCodeNumeric="210800" geoId="CHN_2108" geoNameLocal="营口市" geoTypeEnumId="GEOT_CITY" geoName="营口市"/>
+    <Geo geoCodeNumeric="210900" geoId="CHN_2109" geoNameLocal="阜新市" geoTypeEnumId="GEOT_CITY" geoName="阜新市"/>
+    <Geo geoCodeNumeric="211000" geoId="CHN_2110" geoNameLocal="辽阳市" geoTypeEnumId="GEOT_CITY" geoName="辽阳市"/>
+    <Geo geoCodeNumeric="211100" geoId="CHN_2111" geoNameLocal="盘锦市" geoTypeEnumId="GEOT_CITY" geoName="盘锦市"/>
+    <Geo geoCodeNumeric="211200" geoId="CHN_2112" geoNameLocal="铁岭市" geoTypeEnumId="GEOT_CITY" geoName="铁岭市"/>
+    <Geo geoCodeNumeric="211300" geoId="CHN_2113" geoNameLocal="朝阳市" geoTypeEnumId="GEOT_CITY" geoName="朝阳市"/>
+    <Geo geoCodeNumeric="211400" geoId="CHN_2114" geoNameLocal="葫芦岛市" geoTypeEnumId="GEOT_CITY" geoName="葫芦岛市"/>
+    <Geo geoCodeNumeric="220100" geoId="CHN_2201" geoNameLocal="长春市" geoTypeEnumId="GEOT_CITY" geoName="长春市"/>
+    <Geo geoCodeNumeric="220200" geoId="CHN_2202" geoNameLocal="吉林市" geoTypeEnumId="GEOT_CITY" geoName="吉林市"/>
+    <Geo geoCodeNumeric="220300" geoId="CHN_2203" geoNameLocal="四平市" geoTypeEnumId="GEOT_CITY" geoName="四平市"/>
+    <Geo geoCodeNumeric="220400" geoId="CHN_2204" geoNameLocal="辽源市" geoTypeEnumId="GEOT_CITY" geoName="辽源市"/>
+    <Geo geoCodeNumeric="220500" geoId="CHN_2205" geoNameLocal="通化市" geoTypeEnumId="GEOT_CITY" geoName="通化市"/>
+    <Geo geoCodeNumeric="220600" geoId="CHN_2206" geoNameLocal="白山市" geoTypeEnumId="GEOT_CITY" geoName="白山市"/>
+    <Geo geoCodeNumeric="220700" geoId="CHN_2207" geoNameLocal="松原市" geoTypeEnumId="GEOT_CITY" geoName="松原市"/>
+    <Geo geoCodeNumeric="220800" geoId="CHN_2208" geoNameLocal="白城市" geoTypeEnumId="GEOT_CITY" geoName="白城市"/>
+    <Geo geoCodeNumeric="222400" geoId="CHN_2224" geoNameLocal="延边朝鲜族自治州" geoTypeEnumId="GEOT_CITY" geoName="延边朝鲜族自治州"/>
+    <Geo geoCodeNumeric="230100" geoId="CHN_2301" geoNameLocal="哈尔滨市" geoTypeEnumId="GEOT_CITY" geoName="哈尔滨市"/>
+    <Geo geoCodeNumeric="230200" geoId="CHN_2302" geoNameLocal="齐齐哈尔市" geoTypeEnumId="GEOT_CITY" geoName="齐齐哈尔市"/>
+    <Geo geoCodeNumeric="230300" geoId="CHN_2303" geoNameLocal="鸡西市" geoTypeEnumId="GEOT_CITY" geoName="鸡西市"/>
+    <Geo geoCodeNumeric="230400" geoId="CHN_2304" geoNameLocal="鹤岗市" geoTypeEnumId="GEOT_CITY" geoName="鹤岗市"/>
+    <Geo geoCodeNumeric="230500" geoId="CHN_2305" geoNameLocal="双鸭山市" geoTypeEnumId="GEOT_CITY" geoName="双鸭山市"/>
+    <Geo geoCodeNumeric="230600" geoId="CHN_2306" geoNameLocal="大庆市" geoTypeEnumId="GEOT_CITY" geoName="大庆市"/>
+    <Geo geoCodeNumeric="230700" geoId="CHN_2307" geoNameLocal="伊春市" geoTypeEnumId="GEOT_CITY" geoName="伊春市"/>
+    <Geo geoCodeNumeric="230800" geoId="CHN_2308" geoNameLocal="佳木斯市" geoTypeEnumId="GEOT_CITY" geoName="佳木斯市"/>
+    <Geo geoCodeNumeric="230900" geoId="CHN_2309" geoNameLocal="七台河市" geoTypeEnumId="GEOT_CITY" geoName="七台河市"/>
+    <Geo geoCodeNumeric="231000" geoId="CHN_2310" geoNameLocal="牡丹江市" geoTypeEnumId="GEOT_CITY" geoName="牡丹江市"/>
+    <Geo geoCodeNumeric="231100" geoId="CHN_2311" geoNameLocal="黑河市" geoTypeEnumId="GEOT_CITY" geoName="黑河市"/>
+    <Geo geoCodeNumeric="231200" geoId="CHN_2312" geoNameLocal="绥化市" geoTypeEnumId="GEOT_CITY" geoName="绥化市"/>
+    <Geo geoCodeNumeric="232700" geoId="CHN_2327" geoNameLocal="大兴安岭地区" geoTypeEnumId="GEOT_CITY" geoName="大兴安岭地区"/>
+    <Geo geoCodeNumeric="310100" geoId="CHN_3101" geoNameLocal="市辖区" geoTypeEnumId="GEOT_CITY" geoName="市辖区"/>
+    <Geo geoCodeNumeric="310200" geoId="CHN_3102" geoNameLocal="县" geoTypeEnumId="GEOT_CITY" geoName="县"/>
+    <Geo geoCodeNumeric="320100" geoId="CHN_3201" geoNameLocal="南京市" geoTypeEnumId="GEOT_CITY" geoName="南京市"/>
+    <Geo geoCodeNumeric="320200" geoId="CHN_3202" geoNameLocal="无锡市" geoTypeEnumId="GEOT_CITY" geoName="无锡市"/>
+    <Geo geoCodeNumeric="320300" geoId="CHN_3203" geoNameLocal="徐州市" geoTypeEnumId="GEOT_CITY" geoName="徐州市"/>
+    <Geo geoCodeNumeric="320400" geoId="CHN_3204" geoNameLocal="常州市" geoTypeEnumId="GEOT_CITY" geoName="常州市"/>
+    <Geo geoCodeNumeric="320500" geoId="CHN_3205" geoNameLocal="苏州市" geoTypeEnumId="GEOT_CITY" geoName="苏州市"/>
+    <Geo geoCodeNumeric="320600" geoId="CHN_3206" geoNameLocal="南通市" geoTypeEnumId="GEOT_CITY" geoName="南通市"/>
+    <Geo geoCodeNumeric="320700" geoId="CHN_3207" geoNameLocal="连云港市" geoTypeEnumId="GEOT_CITY" geoName="连云港市"/>
+    <Geo geoCodeNumeric="320800" geoId="CHN_3208" geoNameLocal="淮安市" geoTypeEnumId="GEOT_CITY" geoName="淮安市"/>
+    <Geo geoCodeNumeric="320900" geoId="CHN_3209" geoNameLocal="盐城市" geoTypeEnumId="GEOT_CITY" geoName="盐城市"/>
+    <Geo geoCodeNumeric="321000" geoId="CHN_3210" geoNameLocal="扬州市" geoTypeEnumId="GEOT_CITY" geoName="扬州市"/>
+    <Geo geoCodeNumeric="321100" geoId="CHN_3211" geoNameLocal="镇江市" geoTypeEnumId="GEOT_CITY" geoName="镇江市"/>
+    <Geo geoCodeNumeric="321200" geoId="CHN_3212" geoNameLocal="泰州市" geoTypeEnumId="GEOT_CITY" geoName="泰州市"/>
+    <Geo geoCodeNumeric="321300" geoId="CHN_3213" geoNameLocal="宿迁市" geoTypeEnumId="GEOT_CITY" geoName="宿迁市"/>
+    <Geo geoCodeNumeric="330100" geoId="CHN_3301" geoNameLocal="杭州市" geoTypeEnumId="GEOT_CITY" geoName="杭州市"/>
+    <Geo geoCodeNumeric="330200" geoId="CHN_3302" geoNameLocal="宁波市" geoTypeEnumId="GEOT_CITY" geoName="宁波市"/>
+    <Geo geoCodeNumeric="330300" geoId="CHN_3303" geoNameLocal="温州市" geoTypeEnumId="GEOT_CITY" geoName="温州市"/>
+    <Geo geoCodeNumeric="330400" geoId="CHN_3304" geoNameLocal="嘉兴市" geoTypeEnumId="GEOT_CITY" geoName="嘉兴市"/>
+    <Geo geoCodeNumeric="330500" geoId="CHN_3305" geoNameLocal="湖州市" geoTypeEnumId="GEOT_CITY" geoName="湖州市"/>
+    <Geo geoCodeNumeric="330600" geoId="CHN_3306" geoNameLocal="绍兴市" geoTypeEnumId="GEOT_CITY" geoName="绍兴市"/>
+    <Geo geoCodeNumeric="330700" geoId="CHN_3307" geoNameLocal="金华市" geoTypeEnumId="GEOT_CITY" geoName="金华市"/>
+    <Geo geoCodeNumeric="330800" geoId="CHN_3308" geoNameLocal="衢州市" geoTypeEnumId="GEOT_CITY" geoName="衢州市"/>
+    <Geo geoCodeNumeric="330900" geoId="CHN_3309" geoNameLocal="舟山市" geoTypeEnumId="GEOT_CITY" geoName="舟山市"/>
+    <Geo geoCodeNumeric="331000" geoId="CHN_3310" geoNameLocal="台州市" geoTypeEnumId="GEOT_CITY" geoName="台州市"/>
+    <Geo geoCodeNumeric="331100" geoId="CHN_3311" geoNameLocal="丽水市" geoTypeEnumId="GEOT_CITY" geoName="丽水市"/>
+    <Geo geoCodeNumeric="340100" geoId="CHN_3401" geoNameLocal="合肥市" geoTypeEnumId="GEOT_CITY" geoName="合肥市"/>
+    <Geo geoCodeNumeric="340200" geoId="CHN_3402" geoNameLocal="芜湖市" geoTypeEnumId="GEOT_CITY" geoName="芜湖市"/>
+    <Geo geoCodeNumeric="340300" geoId="CHN_3403" geoNameLocal="蚌埠市" geoTypeEnumId="GEOT_CITY" geoName="蚌埠市"/>
+    <Geo geoCodeNumeric="340400" geoId="CHN_3404" geoNameLocal="淮南市" geoTypeEnumId="GEOT_CITY" geoName="淮南市"/>
+    <Geo geoCodeNumeric="340500" geoId="CHN_3405" geoNameLocal="马鞍山市" geoTypeEnumId="GEOT_CITY" geoName="马鞍山市"/>
+    <Geo geoCodeNumeric="340600" geoId="CHN_3406" geoNameLocal="淮北市" geoTypeEnumId="GEOT_CITY" geoName="淮北市"/>
+    <Geo geoCodeNumeric="340700" geoId="CHN_3407" geoNameLocal="铜陵市" geoTypeEnumId="GEOT_CITY" geoName="铜陵市"/>
+    <Geo geoCodeNumeric="340800" geoId="CHN_3408" geoNameLocal="安庆市" geoTypeEnumId="GEOT_CITY" geoName="安庆市"/>
+    <Geo geoCodeNumeric="341000" geoId="CHN_3410" geoNameLocal="黄山市" geoTypeEnumId="GEOT_CITY" geoName="黄山市"/>
+    <Geo geoCodeNumeric="341100" geoId="CHN_3411" geoNameLocal="滁州市" geoTypeEnumId="GEOT_CITY" geoName="滁州市"/>
+    <Geo geoCodeNumeric="341200" geoId="CHN_3412" geoNameLocal="阜阳市" geoTypeEnumId="GEOT_CITY" geoName="阜阳市"/>
+    <Geo geoCodeNumeric="341300" geoId="CHN_3413" geoNameLocal="宿州市" geoTypeEnumId="GEOT_CITY" geoName="宿州市"/>
+    <Geo geoCodeNumeric="341500" geoId="CHN_3415" geoNameLocal="六安市" geoTypeEnumId="GEOT_CITY" geoName="六安市"/>
+    <Geo geoCodeNumeric="341600" geoId="CHN_3416" geoNameLocal="亳州市" geoTypeEnumId="GEOT_CITY" geoName="亳州市"/>
+    <Geo geoCodeNumeric="341700" geoId="CHN_3417" geoNameLocal="池州市" geoTypeEnumId="GEOT_CITY" geoName="池州市"/>
+    <Geo geoCodeNumeric="341800" geoId="CHN_3418" geoNameLocal="宣城市" geoTypeEnumId="GEOT_CITY" geoName="宣城市"/>
+    <Geo geoCodeNumeric="350100" geoId="CHN_3501" geoNameLocal="福州市" geoTypeEnumId="GEOT_CITY" geoName="福州市"/>
+    <Geo geoCodeNumeric="350200" geoId="CHN_3502" geoNameLocal="厦门市" geoTypeEnumId="GEOT_CITY" geoName="厦门市"/>
+    <Geo geoCodeNumeric="350300" geoId="CHN_3503" geoNameLocal="莆田市" geoTypeEnumId="GEOT_CITY" geoName="莆田市"/>
+    <Geo geoCodeNumeric="350400" geoId="CHN_3504" geoNameLocal="三明市" geoTypeEnumId="GEOT_CITY" geoName="三明市"/>
+    <Geo geoCodeNumeric="350500" geoId="CHN_3505" geoNameLocal="泉州市" geoTypeEnumId="GEOT_CITY" geoName="泉州市"/>
+    <Geo geoCodeNumeric="350600" geoId="CHN_3506" geoNameLocal="漳州市" geoTypeEnumId="GEOT_CITY" geoName="漳州市"/>
+    <Geo geoCodeNumeric="350700" geoId="CHN_3507" geoNameLocal="南平市" geoTypeEnumId="GEOT_CITY" geoName="南平市"/>
+    <Geo geoCodeNumeric="350800" geoId="CHN_3508" geoNameLocal="龙岩市" geoTypeEnumId="GEOT_CITY" geoName="龙岩市"/>
+    <Geo geoCodeNumeric="350900" geoId="CHN_3509" geoNameLocal="宁德市" geoTypeEnumId="GEOT_CITY" geoName="宁德市"/>
+    <Geo geoCodeNumeric="360100" geoId="CHN_3601" geoNameLocal="南昌市" geoTypeEnumId="GEOT_CITY" geoName="南昌市"/>
+    <Geo geoCodeNumeric="360200" geoId="CHN_3602" geoNameLocal="景德镇市" geoTypeEnumId="GEOT_CITY" geoName="景德镇市"/>
+    <Geo geoCodeNumeric="360300" geoId="CHN_3603" geoNameLocal="萍乡市" geoTypeEnumId="GEOT_CITY" geoName="萍乡市"/>
+    <Geo geoCodeNumeric="360400" geoId="CHN_3604" geoNameLocal="九江市" geoTypeEnumId="GEOT_CITY" geoName="九江市"/>
+    <Geo geoCodeNumeric="360500" geoId="CHN_3605" geoNameLocal="新余市" geoTypeEnumId="GEOT_CITY" geoName="新余市"/>
+    <Geo geoCodeNumeric="360600" geoId="CHN_3606" geoNameLocal="鹰潭市" geoTypeEnumId="GEOT_CITY" geoName="鹰潭市"/>
+    <Geo geoCodeNumeric="360700" geoId="CHN_3607" geoNameLocal="赣州市" geoTypeEnumId="GEOT_CITY" geoName="赣州市"/>
+    <Geo geoCodeNumeric="360800" geoId="CHN_3608" geoNameLocal="吉安市" geoTypeEnumId="GEOT_CITY" geoName="吉安市"/>
+    <Geo geoCodeNumeric="360900" geoId="CHN_3609" geoNameLocal="宜春市" geoTypeEnumId="GEOT_CITY" geoName="宜春市"/>
+    <Geo geoCodeNumeric="361000" geoId="CHN_3610" geoNameLocal="抚州市" geoTypeEnumId="GEOT_CITY" geoName="抚州市"/>
+    <Geo geoCodeNumeric="361100" geoId="CHN_3611" geoNameLocal="上饶市" geoTypeEnumId="GEOT_CITY" geoName="上饶市"/>
+    <Geo geoCodeNumeric="370100" geoId="CHN_3701" geoNameLocal="济南市" geoTypeEnumId="GEOT_CITY" geoName="济南市"/>
+    <Geo geoCodeNumeric="370200" geoId="CHN_3702" geoNameLocal="青岛市" geoTypeEnumId="GEOT_CITY" geoName="青岛市"/>
+    <Geo geoCodeNumeric="370300" geoId="CHN_3703" geoNameLocal="淄博市" geoTypeEnumId="GEOT_CITY" geoName="淄博市"/>
+    <Geo geoCodeNumeric="370400" geoId="CHN_3704" geoNameLocal="枣庄市" geoTypeEnumId="GEOT_CITY" geoName="枣庄市"/>
+    <Geo geoCodeNumeric="370500" geoId="CHN_3705" geoNameLocal="东营市" geoTypeEnumId="GEOT_CITY" geoName="东营市"/>
+    <Geo geoCodeNumeric="370600" geoId="CHN_3706" geoNameLocal="烟台市" geoTypeEnumId="GEOT_CITY" geoName="烟台市"/>
+    <Geo geoCodeNumeric="370700" geoId="CHN_3707" geoNameLocal="潍坊市" geoTypeEnumId="GEOT_CITY" geoName="潍坊市"/>
+    <Geo geoCodeNumeric="370800" geoId="CHN_3708" geoNameLocal="济宁市" geoTypeEnumId="GEOT_CITY" geoName="济宁市"/>
+    <Geo geoCodeNumeric="370900" geoId="CHN_3709" geoNameLocal="泰安市" geoTypeEnumId="GEOT_CITY" geoName="泰安市"/>
+    <Geo geoCodeNumeric="371000" geoId="CHN_3710" geoNameLocal="威海市" geoTypeEnumId="GEOT_CITY" geoName="威海市"/>
+    <Geo geoCodeNumeric="371100" geoId="CHN_3711" geoNameLocal="日照市" geoTypeEnumId="GEOT_CITY" geoName="日照市"/>
+    <Geo geoCodeNumeric="371200" geoId="CHN_3712" geoNameLocal="莱芜市" geoTypeEnumId="GEOT_CITY" geoName="莱芜市"/>
+    <Geo geoCodeNumeric="371300" geoId="CHN_3713" geoNameLocal="临沂市" geoTypeEnumId="GEOT_CITY" geoName="临沂市"/>
+    <Geo geoCodeNumeric="371400" geoId="CHN_3714" geoNameLocal="德州市" geoTypeEnumId="GEOT_CITY" geoName="德州市"/>
+    <Geo geoCodeNumeric="371500" geoId="CHN_3715" geoNameLocal="聊城市" geoTypeEnumId="GEOT_CITY" geoName="聊城市"/>
+    <Geo geoCodeNumeric="371600" geoId="CHN_3716" geoNameLocal="滨州市" geoTypeEnumId="GEOT_CITY" geoName="滨州市"/>
+    <Geo geoCodeNumeric="371700" geoId="CHN_3717" geoNameLocal="菏泽市" geoTypeEnumId="GEOT_CITY" geoName="菏泽市"/>
+    <Geo geoCodeNumeric="410100" geoId="CHN_4101" geoNameLocal="郑州市" geoTypeEnumId="GEOT_CITY" geoName="郑州市"/>
+    <Geo geoCodeNumeric="410200" geoId="CHN_4102" geoNameLocal="开封市" geoTypeEnumId="GEOT_CITY" geoName="开封市"/>
+    <Geo geoCodeNumeric="410300" geoId="CHN_4103" geoNameLocal="洛阳市" geoTypeEnumId="GEOT_CITY" geoName="洛阳市"/>
+    <Geo geoCodeNumeric="410400" geoId="CHN_4104" geoNameLocal="平顶山市" geoTypeEnumId="GEOT_CITY" geoName="平顶山市"/>
+    <Geo geoCodeNumeric="410500" geoId="CHN_4105" geoNameLocal="安阳市" geoTypeEnumId="GEOT_CITY" geoName="安阳市"/>
+    <Geo geoCodeNumeric="410600" geoId="CHN_4106" geoNameLocal="鹤壁市" geoTypeEnumId="GEOT_CITY" geoName="鹤壁市"/>
+    <Geo geoCodeNumeric="410700" geoId="CHN_4107" geoNameLocal="新乡市" geoTypeEnumId="GEOT_CITY" geoName="新乡市"/>
+    <Geo geoCodeNumeric="410800" geoId="CHN_4108" geoNameLocal="焦作市" geoTypeEnumId="GEOT_CITY" geoName="焦作市"/>
+    <Geo geoCodeNumeric="410900" geoId="CHN_4109" geoNameLocal="濮阳市" geoTypeEnumId="GEOT_CITY" geoName="濮阳市"/>
+    <Geo geoCodeNumeric="411000" geoId="CHN_4110" geoNameLocal="许昌市" geoTypeEnumId="GEOT_CITY" geoName="许昌市"/>
+    <Geo geoCodeNumeric="411100" geoId="CHN_4111" geoNameLocal="漯河市" geoTypeEnumId="GEOT_CITY" geoName="漯河市"/>
+    <Geo geoCodeNumeric="411200" geoId="CHN_4112" geoNameLocal="三门峡市" geoTypeEnumId="GEOT_CITY" geoName="三门峡市"/>
+    <Geo geoCodeNumeric="411300" geoId="CHN_4113" geoNameLocal="南阳市" geoTypeEnumId="GEOT_CITY" geoName="南阳市"/>
+    <Geo geoCodeNumeric="411400" geoId="CHN_4114" geoNameLocal="商丘市" geoTypeEnumId="GEOT_CITY" geoName="商丘市"/>
+    <Geo geoCodeNumeric="411500" geoId="CHN_4115" geoNameLocal="信阳市" geoTypeEnumId="GEOT_CITY" geoName="信阳市"/>
+    <Geo geoCodeNumeric="411600" geoId="CHN_4116" geoNameLocal="周口市" geoTypeEnumId="GEOT_CITY" geoName="周口市"/>
+    <Geo geoCodeNumeric="411700" geoId="CHN_4117" geoNameLocal="驻马店市" geoTypeEnumId="GEOT_CITY" geoName="驻马店市"/>
+    <Geo geoCodeNumeric="419000" geoId="CHN_4190" geoNameLocal="省直辖县级行政区划" geoTypeEnumId="GEOT_CITY" geoName="省直辖县级行政区划"/>
+    <Geo geoCodeNumeric="420100" geoId="CHN_4201" geoNameLocal="武汉市" geoTypeEnumId="GEOT_CITY" geoName="武汉市"/>
+    <Geo geoCodeNumeric="420200" geoId="CHN_4202" geoNameLocal="黄石市" geoTypeEnumId="GEOT_CITY" geoName="黄石市"/>
+    <Geo geoCodeNumeric="420300" geoId="CHN_4203" geoNameLocal="十堰市" geoTypeEnumId="GEOT_CITY" geoName="十堰市"/>
+    <Geo geoCodeNumeric="420500" geoId="CHN_4205" geoNameLocal="宜昌市" geoTypeEnumId="GEOT_CITY" geoName="宜昌市"/>
+    <Geo geoCodeNumeric="420600" geoId="CHN_4206" geoNameLocal="襄阳市" geoTypeEnumId="GEOT_CITY" geoName="襄阳市"/>
+    <Geo geoCodeNumeric="420700" geoId="CHN_4207" geoNameLocal="鄂州市" geoTypeEnumId="GEOT_CITY" geoName="鄂州市"/>
+    <Geo geoCodeNumeric="420800" geoId="CHN_4208" geoNameLocal="荆门市" geoTypeEnumId="GEOT_CITY" geoName="荆门市"/>
+    <Geo geoCodeNumeric="420900" geoId="CHN_4209" geoNameLocal="孝感市" geoTypeEnumId="GEOT_CITY" geoName="孝感市"/>
+    <Geo geoCodeNumeric="421000" geoId="CHN_4210" geoNameLocal="荆州市" geoTypeEnumId="GEOT_CITY" geoName="荆州市"/>
+    <Geo geoCodeNumeric="421100" geoId="CHN_4211" geoNameLocal="黄冈市" geoTypeEnumId="GEOT_CITY" geoName="黄冈市"/>
+    <Geo geoCodeNumeric="421200" geoId="CHN_4212" geoNameLocal="咸宁市" geoTypeEnumId="GEOT_CITY" geoName="咸宁市"/>
+    <Geo geoCodeNumeric="421300" geoId="CHN_4213" geoNameLocal="随州市" geoTypeEnumId="GEOT_CITY" geoName="随州市"/>
+    <Geo geoCodeNumeric="422800" geoId="CHN_4228" geoNameLocal="恩施土家族苗族自治州" geoTypeEnumId="GEOT_CITY" geoName="恩施土家族苗族自治州"/>
+    <Geo geoCodeNumeric="429000" geoId="CHN_4290" geoNameLocal="省直辖县级行政区划" geoTypeEnumId="GEOT_CITY" geoName="省直辖县级行政区划"/>
+    <Geo geoCodeNumeric="430100" geoId="CHN_4301" geoNameLocal="长沙市" geoTypeEnumId="GEOT_CITY" geoName="长沙市"/>
+    <Geo geoCodeNumeric="430200" geoId="CHN_4302" geoNameLocal="株洲市" geoTypeEnumId="GEOT_CITY" geoName="株洲市"/>
+    <Geo geoCodeNumeric="430300" geoId="CHN_4303" geoNameLocal="湘潭市" geoTypeEnumId="GEOT_CITY" geoName="湘潭市"/>
+    <Geo geoCodeNumeric="430400" geoId="CHN_4304" geoNameLocal="衡阳市" geoTypeEnumId="GEOT_CITY" geoName="衡阳市"/>
+    <Geo geoCodeNumeric="430500" geoId="CHN_4305" geoNameLocal="邵阳市" geoTypeEnumId="GEOT_CITY" geoName="邵阳市"/>
+    <Geo geoCodeNumeric="430600" geoId="CHN_4306" geoNameLocal="岳阳市" geoTypeEnumId="GEOT_CITY" geoName="岳阳市"/>
+    <Geo geoCodeNumeric="430700" geoId="CHN_4307" geoNameLocal="常德市" geoTypeEnumId="GEOT_CITY" geoName="常德市"/>
+    <Geo geoCodeNumeric="430800" geoId="CHN_4308" geoNameLocal="张家界市" geoTypeEnumId="GEOT_CITY" geoName="张家界市"/>
+    <Geo geoCodeNumeric="430900" geoId="CHN_4309" geoNameLocal="益阳市" geoTypeEnumId="GEOT_CITY" geoName="益阳市"/>
+    <Geo geoCodeNumeric="431000" geoId="CHN_4310" geoNameLocal="郴州市" geoTypeEnumId="GEOT_CITY" geoName="郴州市"/>
+    <Geo geoCodeNumeric="431100" geoId="CHN_4311" geoNameLocal="永州市" geoTypeEnumId="GEOT_CITY" geoName="永州市"/>
+    <Geo geoCodeNumeric="431200" geoId="CHN_4312" geoNameLocal="怀化市" geoTypeEnumId="GEOT_CITY" geoName="怀化市"/>
+    <Geo geoCodeNumeric="431300" geoId="CHN_4313" geoNameLocal="娄底市" geoTypeEnumId="GEOT_CITY" geoName="娄底市"/>
+    <Geo geoCodeNumeric="433100" geoId="CHN_4331" geoNameLocal="湘西土家族苗族自治州" geoTypeEnumId="GEOT_CITY" geoName="湘西土家族苗族自治州"/>
+    <Geo geoCodeNumeric="440100" geoId="CHN_4401" geoNameLocal="广州市" geoTypeEnumId="GEOT_CITY" geoName="广州市"/>
+    <Geo geoCodeNumeric="440200" geoId="CHN_4402" geoNameLocal="韶关市" geoTypeEnumId="GEOT_CITY" geoName="韶关市"/>
+    <Geo geoCodeNumeric="440300" geoId="CHN_4403" geoNameLocal="深圳市" geoTypeEnumId="GEOT_CITY" geoName="深圳市"/>
+    <Geo geoCodeNumeric="440400" geoId="CHN_4404" geoNameLocal="珠海市" geoTypeEnumId="GEOT_CITY" geoName="珠海市"/>
+    <Geo geoCodeNumeric="440500" geoId="CHN_4405" geoNameLocal="汕头市" geoTypeEnumId="GEOT_CITY" geoName="汕头市"/>
+    <Geo geoCodeNumeric="440600" geoId="CHN_4406" geoNameLocal="佛山市" geoTypeEnumId="GEOT_CITY" geoName="佛山市"/>
+    <Geo geoCodeNumeric="440700" geoId="CHN_4407" geoNameLocal="江门市" geoTypeEnumId="GEOT_CITY" geoName="江门市"/>
+    <Geo geoCodeNumeric="440800" geoId="CHN_4408" geoNameLocal="湛江市" geoTypeEnumId="GEOT_CITY" geoName="湛江市"/>
+    <Geo geoCodeNumeric="440900" geoId="CHN_4409" geoNameLocal="茂名市" geoTypeEnumId="GEOT_CITY" geoName="茂名市"/>
+    <Geo geoCodeNumeric="441200" geoId="CHN_4412" geoNameLocal="肇庆市" geoTypeEnumId="GEOT_CITY" geoName="肇庆市"/>
+    <Geo geoCodeNumeric="441300" geoId="CHN_4413" geoNameLocal="惠州市" geoTypeEnumId="GEOT_CITY" geoName="惠州市"/>
+    <Geo geoCodeNumeric="441400" geoId="CHN_4414" geoNameLocal="梅州市" geoTypeEnumId="GEOT_CITY" geoName="梅州市"/>
+    <Geo geoCodeNumeric="441500" geoId="CHN_4415" geoNameLocal="汕尾市" geoTypeEnumId="GEOT_CITY" geoName="汕尾市"/>
+    <Geo geoCodeNumeric="441600" geoId="CHN_4416" geoNameLocal="河源市" geoTypeEnumId="GEOT_CITY" geoName="河源市"/>
+    <Geo geoCodeNumeric="441700" geoId="CHN_4417" geoNameLocal="阳江市" geoTypeEnumId="GEOT_CITY" geoName="阳江市"/>
+    <Geo geoCodeNumeric="441800" geoId="CHN_4418" geoNameLocal="清远市" geoTypeEnumId="GEOT_CITY" geoName="清远市"/>
+    <Geo geoCodeNumeric="441900" geoId="CHN_4419" geoNameLocal="东莞市" geoTypeEnumId="GEOT_CITY" geoName="东莞市"/>
+    <Geo geoCodeNumeric="442000" geoId="CHN_4420" geoNameLocal="中山市" geoTypeEnumId="GEOT_CITY" geoName="中山市"/>
+    <Geo geoCodeNumeric="445100" geoId="CHN_4451" geoNameLocal="潮州市" geoTypeEnumId="GEOT_CITY" geoName="潮州市"/>
+    <Geo geoCodeNumeric="445200" geoId="CHN_4452" geoNameLocal="揭阳市" geoTypeEnumId="GEOT_CITY" geoName="揭阳市"/>
+    <Geo geoCodeNumeric="445300" geoId="CHN_4453" geoNameLocal="云浮市" geoTypeEnumId="GEOT_CITY" geoName="云浮市"/>
+    <Geo geoCodeNumeric="450100" geoId="CHN_4501" geoNameLocal="南宁市" geoTypeEnumId="GEOT_CITY" geoName="南宁市"/>
+    <Geo geoCodeNumeric="450200" geoId="CHN_4502" geoNameLocal="柳州市" geoTypeEnumId="GEOT_CITY" geoName="柳州市"/>
+    <Geo geoCodeNumeric="450300" geoId="CHN_4503" geoNameLocal="桂林市" geoTypeEnumId="GEOT_CITY" geoName="桂林市"/>
+    <Geo geoCodeNumeric="450400" geoId="CHN_4504" geoNameLocal="梧州市" geoTypeEnumId="GEOT_CITY" geoName="梧州市"/>
+    <Geo geoCodeNumeric="450500" geoId="CHN_4505" geoNameLocal="北海市" geoTypeEnumId="GEOT_CITY" geoName="北海市"/>
+    <Geo geoCodeNumeric="450600" geoId="CHN_4506" geoNameLocal="防城港市" geoTypeEnumId="GEOT_CITY" geoName="防城港市"/>
+    <Geo geoCodeNumeric="450700" geoId="CHN_4507" geoNameLocal="钦州市" geoTypeEnumId="GEOT_CITY" geoName="钦州市"/>
+    <Geo geoCodeNumeric="450800" geoId="CHN_4508" geoNameLocal="贵港市" geoTypeEnumId="GEOT_CITY" geoName="贵港市"/>
+    <Geo geoCodeNumeric="450900" geoId="CHN_4509" geoNameLocal="玉林市" geoTypeEnumId="GEOT_CITY" geoName="玉林市"/>
+    <Geo geoCodeNumeric="451000" geoId="CHN_4510" geoNameLocal="百色市" geoTypeEnumId="GEOT_CITY" geoName="百色市"/>
+    <Geo geoCodeNumeric="451100" geoId="CHN_4511" geoNameLocal="贺州市" geoTypeEnumId="GEOT_CITY" geoName="贺州市"/>
+    <Geo geoCodeNumeric="451200" geoId="CHN_4512" geoNameLocal="河池市" geoTypeEnumId="GEOT_CITY" geoName="河池市"/>
+    <Geo geoCodeNumeric="451300" geoId="CHN_4513" geoNameLocal="来宾市" geoTypeEnumId="GEOT_CITY" geoName="来宾市"/>
+    <Geo geoCodeNumeric="451400" geoId="CHN_4514" geoNameLocal="崇左市" geoTypeEnumId="GEOT_CITY" geoName="崇左市"/>
+    <Geo geoCodeNumeric="460100" geoId="CHN_4601" geoNameLocal="海口市" geoTypeEnumId="GEOT_CITY" geoName="海口市"/>
+    <Geo geoCodeNumeric="460200" geoId="CHN_4602" geoNameLocal="三亚市" geoTypeEnumId="GEOT_CITY" geoName="三亚市"/>
+    <Geo geoCodeNumeric="460300" geoId="CHN_4603" geoNameLocal="三沙市" geoTypeEnumId="GEOT_CITY" geoName="三沙市"/>
+    <Geo geoCodeNumeric="469000" geoId="CHN_4690" geoNameLocal="省直辖县级行政区划" geoTypeEnumId="GEOT_CITY" geoName="省直辖县级行政区划"/>
+    <Geo geoCodeNumeric="500100" geoId="CHN_5001" geoNameLocal="市辖区" geoTypeEnumId="GEOT_CITY" geoName="市辖区"/>
+    <Geo geoCodeNumeric="500200" geoId="CHN_5002" geoNameLocal="县" geoTypeEnumId="GEOT_CITY" geoName="县"/>
+    <Geo geoCodeNumeric="510100" geoId="CHN_5101" geoNameLocal="成都市" geoTypeEnumId="GEOT_CITY" geoName="成都市"/>
+    <Geo geoCodeNumeric="510300" geoId="CHN_5103" geoNameLocal="自贡市" geoTypeEnumId="GEOT_CITY" geoName="自贡市"/>
+    <Geo geoCodeNumeric="510400" geoId="CHN_5104" geoNameLocal="攀枝花市" geoTypeEnumId="GEOT_CITY" geoName="攀枝花市"/>
+    <Geo geoCodeNumeric="510500" geoId="CHN_5105" geoNameLocal="泸州市" geoTypeEnumId="GEOT_CITY" geoName="泸州市"/>
+    <Geo geoCodeNumeric="510600" geoId="CHN_5106" geoNameLocal="德阳市" geoTypeEnumId="GEOT_CITY" geoName="德阳市"/>
+    <Geo geoCodeNumeric="510700" geoId="CHN_5107" geoNameLocal="绵阳市" geoTypeEnumId="GEOT_CITY" geoName="绵阳市"/>
+    <Geo geoCodeNumeric="510800" geoId="CHN_5108" geoNameLocal="广元市" geoTypeEnumId="GEOT_CITY" geoName="广元市"/>
+    <Geo geoCodeNumeric="510900" geoId="CHN_5109" geoNameLocal="遂宁市" geoTypeEnumId="GEOT_CITY" geoName="遂宁市"/>
+    <Geo geoCodeNumeric="511000" geoId="CHN_5110" geoNameLocal="内江市" geoTypeEnumId="GEOT_CITY" geoName="内江市"/>
+    <Geo geoCodeNumeric="511100" geoId="CHN_5111" geoNameLocal="乐山市" geoTypeEnumId="GEOT_CITY" geoName="乐山市"/>
+    <Geo geoCodeNumeric="511300" geoId="CHN_5113" geoNameLocal="南充市" geoTypeEnumId="GEOT_CITY" geoName="南充市"/>
+    <Geo geoCodeNumeric="511400" geoId="CHN_5114" geoNameLocal="眉山市" geoTypeEnumId="GEOT_CITY" geoName="眉山市"/>
+    <Geo geoCodeNumeric="511500" geoId="CHN_5115" geoNameLocal="宜宾市" geoTypeEnumId="GEOT_CITY" geoName="宜宾市"/>
+    <Geo geoCodeNumeric="511600" geoId="CHN_5116" geoNameLocal="广安市" geoTypeEnumId="GEOT_CITY" geoName="广安市"/>
+    <Geo geoCodeNumeric="511700" geoId="CHN_5117" geoNameLocal="达州市" geoTypeEnumId="GEOT_CITY" geoName="达州市"/>
+    <Geo geoCodeNumeric="511800" geoId="CHN_5118" geoNameLocal="雅安市" geoTypeEnumId="GEOT_CITY" geoName="雅安市"/>
+    <Geo geoCodeNumeric="511900" geoId="CHN_5119" geoNameLocal="巴中市" geoTypeEnumId="GEOT_CITY" geoName="巴中市"/>
+    <Geo geoCodeNumeric="512000" geoId="CHN_5120" geoNameLocal="资阳市" geoTypeEnumId="GEOT_CITY" geoName="资阳市"/>
+    <Geo geoCodeNumeric="513200" geoId="CHN_5132" geoNameLocal="阿坝藏族羌族自治州" geoTypeEnumId="GEOT_CITY" geoName="阿坝藏族羌族自治州"/>
+    <Geo geoCodeNumeric="513300" geoId="CHN_5133" geoNameLocal="甘孜藏族自治州" geoTypeEnumId="GEOT_CITY" geoName="甘孜藏族自治州"/>
+    <Geo geoCodeNumeric="513400" geoId="CHN_5134" geoNameLocal="凉山彝族自治州" geoTypeEnumId="GEOT_CITY" geoName="凉山彝族自治州"/>
+    <Geo geoCodeNumeric="520100" geoId="CHN_5201" geoNameLocal="贵阳市" geoTypeEnumId="GEOT_CITY" geoName="贵阳市"/>
+    <Geo geoCodeNumeric="520200" geoId="CHN_5202" geoNameLocal="六盘水市" geoTypeEnumId="GEOT_CITY" geoName="六盘水市"/>
+    <Geo geoCodeNumeric="520300" geoId="CHN_5203" geoNameLocal="遵义市" geoTypeEnumId="GEOT_CITY" geoName="遵义市"/>
+    <Geo geoCodeNumeric="520400" geoId="CHN_5204" geoNameLocal="安顺市" geoTypeEnumId="GEOT_CITY" geoName="安顺市"/>
+    <Geo geoCodeNumeric="520500" geoId="CHN_5205" geoNameLocal="毕节市" geoTypeEnumId="GEOT_CITY" geoName="毕节市"/>
+    <Geo geoCodeNumeric="520600" geoId="CHN_5206" geoNameLocal="铜仁市" geoTypeEnumId="GEOT_CITY" geoName="铜仁市"/>
+    <Geo geoCodeNumeric="522300" geoId="CHN_5223" geoNameLocal="黔西南布依族苗族自治州" geoTypeEnumId="GEOT_CITY" geoName="黔西南布依族苗族自治州"/>
+    <Geo geoCodeNumeric="522600" geoId="CHN_5226" geoNameLocal="黔东南苗族侗族自治州" geoTypeEnumId="GEOT_CITY" geoName="黔东南苗族侗族自治州"/>
+    <Geo geoCodeNumeric="522700" geoId="CHN_5227" geoNameLocal="黔南布依族苗族自治州" geoTypeEnumId="GEOT_CITY" geoName="黔南布依族苗族自治州"/>
+    <Geo geoCodeNumeric="530100" geoId="CHN_5301" geoNameLocal="昆明市" geoTypeEnumId="GEOT_CITY" geoName="昆明市"/>
+    <Geo geoCodeNumeric="530300" geoId="CHN_5303" geoNameLocal="曲靖市" geoTypeEnumId="GEOT_CITY" geoName="曲靖市"/>
+    <Geo geoCodeNumeric="530400" geoId="CHN_5304" geoNameLocal="玉溪市" geoTypeEnumId="GEOT_CITY" geoName="玉溪市"/>
+    <Geo geoCodeNumeric="530500" geoId="CHN_5305" geoNameLocal="保山市" geoTypeEnumId="GEOT_CITY" geoName="保山市"/>
+    <Geo geoCodeNumeric="530600" geoId="CHN_5306" geoNameLocal="昭通市" geoTypeEnumId="GEOT_CITY" geoName="昭通市"/>
+    <Geo geoCodeNumeric="530700" geoId="CHN_5307" geoNameLocal="丽江市" geoTypeEnumId="GEOT_CITY" geoName="丽江市"/>
+    <Geo geoCodeNumeric="530800" geoId="CHN_5308" geoNameLocal="普洱市" geoTypeEnumId="GEOT_CITY" geoName="普洱市"/>
+    <Geo geoCodeNumeric="530900" geoId="CHN_5309" geoNameLocal="临沧市" geoTypeEnumId="GEOT_CITY" geoName="临沧市"/>
+    <Geo geoCodeNumeric="532300" geoId="CHN_5323" geoNameLocal="楚雄彝族自治州" geoTypeEnumId="GEOT_CITY" geoName="楚雄彝族自治州"/>
+    <Geo geoCodeNumeric="532500" geoId="CHN_5325" geoNameLocal="红河哈尼族彝族自治州" geoTypeEnumId="GEOT_CITY" geoName="红河哈尼族彝族自治州"/>
+    <Geo geoCodeNumeric="532600" geoId="CHN_5326" geoNameLocal="文山壮族苗族自治州" geoTypeEnumId="GEOT_CITY" geoName="文山壮族苗族自治州"/>
+    <Geo geoCodeNumeric="532800" geoId="CHN_5328" geoNameLocal="西双版纳傣族自治州" geoTypeEnumId="GEOT_CITY" geoName="西双版纳傣族自治州"/>
+    <Geo geoCodeNumeric="532900" geoId="CHN_5329" geoNameLocal="大理白族自治州" geoTypeEnumId="GEOT_CITY" geoName="大理白族自治州"/>
+    <Geo geoCodeNumeric="533100" geoId="CHN_5331" geoNameLocal="德宏傣族景颇族自治州" geoTypeEnumId="GEOT_CITY" geoName="德宏傣族景颇族自治州"/>
+    <Geo geoCodeNumeric="533300" geoId="CHN_5333" geoNameLocal="怒江傈僳族自治州" geoTypeEnumId="GEOT_CITY" geoName="怒江傈僳族自治州"/>
+    <Geo geoCodeNumeric="533400" geoId="CHN_5334" geoNameLocal="迪庆藏族自治州" geoTypeEnumId="GEOT_CITY" geoName="迪庆藏族自治州"/>
+    <Geo geoCodeNumeric="540100" geoId="CHN_5401" geoNameLocal="拉萨市" geoTypeEnumId="GEOT_CITY" geoName="拉萨市"/>
+    <Geo geoCodeNumeric="540200" geoId="CHN_5402" geoNameLocal="日喀则市" geoTypeEnumId="GEOT_CITY" geoName="日喀则市"/>
+    <Geo geoCodeNumeric="542100" geoId="CHN_5421" geoNameLocal="昌都地区" geoTypeEnumId="GEOT_CITY" geoName="昌都地区"/>
+    <Geo geoCodeNumeric="542200" geoId="CHN_5422" geoNameLocal="山南地区" geoTypeEnumId="GEOT_CITY" geoName="山南地区"/>
+    <Geo geoCodeNumeric="542400" geoId="CHN_5424" geoNameLocal="那曲地区" geoTypeEnumId="GEOT_CITY" geoName="那曲地区"/>
+    <Geo geoCodeNumeric="542500" geoId="CHN_5425" geoNameLocal="阿里地区" geoTypeEnumId="GEOT_CITY" geoName="阿里地区"/>
+    <Geo geoCodeNumeric="542600" geoId="CHN_5426" geoNameLocal="林芝地区" geoTypeEnumId="GEOT_CITY" geoName="林芝地区"/>
+    <Geo geoCodeNumeric="610100" geoId="CHN_6101" geoNameLocal="西安市" geoTypeEnumId="GEOT_CITY" geoName="西安市"/>
+    <Geo geoCodeNumeric="610200" geoId="CHN_6102" geoNameLocal="铜川市" geoTypeEnumId="GEOT_CITY" geoName="铜川市"/>
+    <Geo geoCodeNumeric="610300" geoId="CHN_6103" geoNameLocal="宝鸡市" geoTypeEnumId="GEOT_CITY" geoName="宝鸡市"/>
+    <Geo geoCodeNumeric="610400" geoId="CHN_6104" geoNameLocal="咸阳市" geoTypeEnumId="GEOT_CITY" geoName="咸阳市"/>
+    <Geo geoCodeNumeric="610500" geoId="CHN_6105" geoNameLocal="渭南市" geoTypeEnumId="GEOT_CITY" geoName="渭南市"/>
+    <Geo geoCodeNumeric="610600" geoId="CHN_6106" geoNameLocal="延安市" geoTypeEnumId="GEOT_CITY" geoName="延安市"/>
+    <Geo geoCodeNumeric="610700" geoId="CHN_6107" geoNameLocal="汉中市" geoTypeEnumId="GEOT_CITY" geoName="汉中市"/>
+    <Geo geoCodeNumeric="610800" geoId="CHN_6108" geoNameLocal="榆林市" geoTypeEnumId="GEOT_CITY" geoName="榆林市"/>
+    <Geo geoCodeNumeric="610900" geoId="CHN_6109" geoNameLocal="安康市" geoTypeEnumId="GEOT_CITY" geoName="安康市"/>
+    <Geo geoCodeNumeric="611000" geoId="CHN_6110" geoNameLocal="商洛市" geoTypeEnumId="GEOT_CITY" geoName="商洛市"/>
+    <Geo geoCodeNumeric="620100" geoId="CHN_6201" geoNameLocal="兰州市" geoTypeEnumId="GEOT_CITY" geoName="兰州市"/>
+    <Geo geoCodeNumeric="620200" geoId="CHN_6202" geoNameLocal="嘉峪关市" geoTypeEnumId="GEOT_CITY" geoName="嘉峪关市"/>
+    <Geo geoCodeNumeric="620300" geoId="CHN_6203" geoNameLocal="金昌市" geoTypeEnumId="GEOT_CITY" geoName="金昌市"/>
+    <Geo geoCodeNumeric="620400" geoId="CHN_6204" geoNameLocal="白银市" geoTypeEnumId="GEOT_CITY" geoName="白银市"/>
+    <Geo geoCodeNumeric="620500" geoId="CHN_6205" geoNameLocal="天水市" geoTypeEnumId="GEOT_CITY" geoName="天水市"/>
+    <Geo geoCodeNumeric="620600" geoId="CHN_6206" geoNameLocal="武威市" geoTypeEnumId="GEOT_CITY" geoName="武威市"/>
+    <Geo geoCodeNumeric="620700" geoId="CHN_6207" geoNameLocal="张掖市" geoTypeEnumId="GEOT_CITY" geoName="张掖市"/>
+    <Geo geoCodeNumeric="620800" geoId="CHN_6208" geoNameLocal="平凉市" geoTypeEnumId="GEOT_CITY" geoName="平凉市"/>
+    <Geo geoCodeNumeric="620900" geoId="CHN_6209" geoNameLocal="酒泉市" geoTypeEnumId="GEOT_CITY" geoName="酒泉市"/>
+    <Geo geoCodeNumeric="621000" geoId="CHN_6210" geoNameLocal="庆阳市" geoTypeEnumId="GEOT_CITY" geoName="庆阳市"/>
+    <Geo geoCodeNumeric="621100" geoId="CHN_6211" geoNameLocal="定西市" geoTypeEnumId="GEOT_CITY" geoName="定西市"/>
+    <Geo geoCodeNumeric="621200" geoId="CHN_6212" geoNameLocal="陇南市" geoTypeEnumId="GEOT_CITY" geoName="陇南市"/>
+    <Geo geoCodeNumeric="622900" geoId="CHN_6229" geoNameLocal="临夏回族自治州" geoTypeEnumId="GEOT_CITY" geoName="临夏回族自治州"/>
+    <Geo geoCodeNumeric="623000" geoId="CHN_6230" geoNameLocal="甘南藏族自治州" geoTypeEnumId="GEOT_CITY" geoName="甘南藏族自治州"/>
+    <Geo geoCodeNumeric="630100" geoId="CHN_6301" geoNameLocal="西宁市" geoTypeEnumId="GEOT_CITY" geoName="西宁市"/>
+    <Geo geoCodeNumeric="630200" geoId="CHN_6302" geoNameLocal="海东市" geoTypeEnumId="GEOT_CITY" geoName="海东市"/>
+    <Geo geoCodeNumeric="632200" geoId="CHN_6322" geoNameLocal="海北藏族自治州" geoTypeEnumId="GEOT_CITY" geoName="海北藏族自治州"/>
+    <Geo geoCodeNumeric="632300" geoId="CHN_6323" geoNameLocal="黄南藏族自治州" geoTypeEnumId="GEOT_CITY" geoName="黄南藏族自治州"/>
+    <Geo geoCodeNumeric="632500" geoId="CHN_6325" geoNameLocal="海南藏族自治州" geoTypeEnumId="GEOT_CITY" geoName="海南藏族自治州"/>
+    <Geo geoCodeNumeric="632600" geoId="CHN_6326" geoNameLocal="果洛藏族自治州" geoTypeEnumId="GEOT_CITY" geoName="果洛藏族自治州"/>
+    <Geo geoCodeNumeric="632700" geoId="CHN_6327" geoNameLocal="玉树藏族自治州" geoTypeEnumId="GEOT_CITY" geoName="玉树藏族自治州"/>
+    <Geo geoCodeNumeric="632800" geoId="CHN_6328" geoNameLocal="海西蒙古族藏族自治州" geoTypeEnumId="GEOT_CITY" geoName="海西蒙古族藏族自治州"/>
+    <Geo geoCodeNumeric="640100" geoId="CHN_6401" geoNameLocal="银川市" geoTypeEnumId="GEOT_CITY" geoName="银川市"/>
+    <Geo geoCodeNumeric="640200" geoId="CHN_6402" geoNameLocal="石嘴山市" geoTypeEnumId="GEOT_CITY" geoName="石嘴山市"/>
+    <Geo geoCodeNumeric="640300" geoId="CHN_6403" geoNameLocal="吴忠市" geoTypeEnumId="GEOT_CITY" geoName="吴忠市"/>
+    <Geo geoCodeNumeric="640400" geoId="CHN_6404" geoNameLocal="固原市" geoTypeEnumId="GEOT_CITY" geoName="固原市"/>
+    <Geo geoCodeNumeric="640500" geoId="CHN_6405" geoNameLocal="中卫市" geoTypeEnumId="GEOT_CITY" geoName="中卫市"/>
+    <Geo geoCodeNumeric="650100" geoId="CHN_6501" geoNameLocal="乌鲁木齐市" geoTypeEnumId="GEOT_CITY" geoName="乌鲁木齐市"/>
+    <Geo geoCodeNumeric="650200" geoId="CHN_6502" geoNameLocal="克拉玛依市" geoTypeEnumId="GEOT_CITY" geoName="克拉玛依市"/>
+    <Geo geoCodeNumeric="652100" geoId="CHN_6521" geoNameLocal="吐鲁番地区" geoTypeEnumId="GEOT_CITY" geoName="吐鲁番地区"/>
+    <Geo geoCodeNumeric="652200" geoId="CHN_6522" geoNameLocal="哈密地区" geoTypeEnumId="GEOT_CITY" geoName="哈密地区"/>
+    <Geo geoCodeNumeric="652300" geoId="CHN_6523" geoNameLocal="昌吉回族自治州" geoTypeEnumId="GEOT_CITY" geoName="昌吉回族自治州"/>
+    <Geo geoCodeNumeric="652700" geoId="CHN_6527" geoNameLocal="博尔塔拉蒙古自治州" geoTypeEnumId="GEOT_CITY" geoName="博尔塔拉蒙古自治州"/>
+    <Geo geoCodeNumeric="652800" geoId="CHN_6528" geoNameLocal="巴音郭楞蒙古自治州" geoTypeEnumId="GEOT_CITY" geoName="巴音郭楞蒙古自治州"/>
+    <Geo geoCodeNumeric="652900" geoId="CHN_6529" geoNameLocal="阿克苏地区" geoTypeEnumId="GEOT_CITY" geoName="阿克苏地区"/>
+    <Geo geoCodeNumeric="653000" geoId="CHN_6530" geoNameLocal="克孜勒苏柯尔克孜自治州" geoTypeEnumId="GEOT_CITY" geoName="克孜勒苏柯尔克孜自治州"/>
+    <Geo geoCodeNumeric="653100" geoId="CHN_6531" geoNameLocal="喀什地区" geoTypeEnumId="GEOT_CITY" geoName="喀什地区"/>
+    <Geo geoCodeNumeric="653200" geoId="CHN_6532" geoNameLocal="和田地区" geoTypeEnumId="GEOT_CITY" geoName="和田地区"/>
+    <Geo geoCodeNumeric="654000" geoId="CHN_6540" geoNameLocal="伊犁哈萨克自治州" geoTypeEnumId="GEOT_CITY" geoName="伊犁哈萨克自治州"/>
+    <Geo geoCodeNumeric="654200" geoId="CHN_6542" geoNameLocal="塔城地区" geoTypeEnumId="GEOT_CITY" geoName="塔城地区"/>
+    <Geo geoCodeNumeric="654300" geoId="CHN_6543" geoNameLocal="阿勒泰地区" geoTypeEnumId="GEOT_CITY" geoName="阿勒泰地区"/>
+    <Geo geoCodeNumeric="659000" geoId="CHN_6590" geoNameLocal="自治区直辖县级行政区划" geoTypeEnumId="GEOT_CITY" geoName="自治区直辖县级行政区划"/>
+
+    <GeoAssoc geoId="CHN_11" toGeoId="CHN_1101" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 北京市 ==- 市辖区  -->
+    <GeoAssoc geoId="CHN_11" toGeoId="CHN_1102" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 北京市 ==- 县  -->
+    <GeoAssoc geoId="CHN_12" toGeoId="CHN_1201" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 天津市 ==- 市辖区  -->
+    <GeoAssoc geoId="CHN_12" toGeoId="CHN_1202" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 天津市 ==- 县  -->
+    <GeoAssoc geoId="CHN_13" toGeoId="CHN_1301" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河北省 ==- 石家庄市  -->
+    <GeoAssoc geoId="CHN_13" toGeoId="CHN_1302" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河北省 ==- 唐山市  -->
+    <GeoAssoc geoId="CHN_13" toGeoId="CHN_1303" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河北省 ==- 秦皇岛市  -->
+    <GeoAssoc geoId="CHN_13" toGeoId="CHN_1304" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河北省 ==- 邯郸市  -->
+    <GeoAssoc geoId="CHN_13" toGeoId="CHN_1305" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河北省 ==- 邢台市  -->
+    <GeoAssoc geoId="CHN_13" toGeoId="CHN_1306" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河北省 ==- 保定市  -->
+    <GeoAssoc geoId="CHN_13" toGeoId="CHN_1307" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河北省 ==- 张家口市  -->
+    <GeoAssoc geoId="CHN_13" toGeoId="CHN_1308" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河北省 ==- 承德市  -->
+    <GeoAssoc geoId="CHN_13" toGeoId="CHN_1309" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河北省 ==- 沧州市  -->
+    <GeoAssoc geoId="CHN_13" toGeoId="CHN_1310" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河北省 ==- 廊坊市  -->
+    <GeoAssoc geoId="CHN_13" toGeoId="CHN_1311" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河北省 ==- 衡水市  -->
+    <GeoAssoc geoId="CHN_14" toGeoId="CHN_1401" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 山西省 ==- 太原市  -->
+    <GeoAssoc geoId="CHN_14" toGeoId="CHN_1402" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 山西省 ==- 大同市  -->
+    <GeoAssoc geoId="CHN_14" toGeoId="CHN_1403" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 山西省 ==- 阳泉市  -->
+    <GeoAssoc geoId="CHN_14" toGeoId="CHN_1404" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 山西省 ==- 长治市  -->
+    <GeoAssoc geoId="CHN_14" toGeoId="CHN_1405" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 山西省 ==- 晋城市  -->
+    <GeoAssoc geoId="CHN_14" toGeoId="CHN_1406" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 山西省 ==- 朔州市  -->
+    <GeoAssoc geoId="CHN_14" toGeoId="CHN_1407" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 山西省 ==- 晋中市  -->
+    <GeoAssoc geoId="CHN_14" toGeoId="CHN_1408" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 山西省 ==- 运城市  -->
+    <GeoAssoc geoId="CHN_14" toGeoId="CHN_1409" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 山西省 ==- 忻州市  -->
+    <GeoAssoc geoId="CHN_14" toGeoId="CHN_1410" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 山西省 ==- 临汾市  -->
+    <GeoAssoc geoId="CHN_14" toGeoId="CHN_1411" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 山西省 ==- 吕梁市  -->
+    <GeoAssoc geoId="CHN_15" toGeoId="CHN_1501" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 内蒙古自治区 ==- 呼和浩特市  -->
+    <GeoAssoc geoId="CHN_15" toGeoId="CHN_1502" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 内蒙古自治区 ==- 包头市  -->
+    <GeoAssoc geoId="CHN_15" toGeoId="CHN_1503" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 内蒙古自治区 ==- 乌海市  -->
+    <GeoAssoc geoId="CHN_15" toGeoId="CHN_1504" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 内蒙古自治区 ==- 赤峰市  -->
+    <GeoAssoc geoId="CHN_15" toGeoId="CHN_1505" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 内蒙古自治区 ==- 通辽市  -->
+    <GeoAssoc geoId="CHN_15" toGeoId="CHN_1506" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 内蒙古自治区 ==- 鄂尔多斯市  -->
+    <GeoAssoc geoId="CHN_15" toGeoId="CHN_1507" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 内蒙古自治区 ==- 呼伦贝尔市  -->
+    <GeoAssoc geoId="CHN_15" toGeoId="CHN_1508" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 内蒙古自治区 ==- 巴彦淖尔市  -->
+    <GeoAssoc geoId="CHN_15" toGeoId="CHN_1509" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 内蒙古自治区 ==- 乌兰察布市  -->
+    <GeoAssoc geoId="CHN_15" toGeoId="CHN_1522" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 内蒙古自治区 ==- 兴安盟  -->
+    <GeoAssoc geoId="CHN_15" toGeoId="CHN_1525" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 内蒙古自治区 ==- 锡林郭勒盟  -->
+    <GeoAssoc geoId="CHN_15" toGeoId="CHN_1529" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 内蒙古自治区 ==- 阿拉善盟  -->
+    <GeoAssoc geoId="CHN_21" toGeoId="CHN_2101" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 辽宁省 ==- 沈阳市  -->
+    <GeoAssoc geoId="CHN_21" toGeoId="CHN_2102" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 辽宁省 ==- 大连市  -->
+    <GeoAssoc geoId="CHN_21" toGeoId="CHN_2103" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 辽宁省 ==- 鞍山市  -->
+    <GeoAssoc geoId="CHN_21" toGeoId="CHN_2104" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 辽宁省 ==- 抚顺市  -->
+    <GeoAssoc geoId="CHN_21" toGeoId="CHN_2105" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 辽宁省 ==- 本溪市  -->
+    <GeoAssoc geoId="CHN_21" toGeoId="CHN_2106" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 辽宁省 ==- 丹东市  -->
+    <GeoAssoc geoId="CHN_21" toGeoId="CHN_2107" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 辽宁省 ==- 锦州市  -->
+    <GeoAssoc geoId="CHN_21" toGeoId="CHN_2108" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 辽宁省 ==- 营口市  -->
+    <GeoAssoc geoId="CHN_21" toGeoId="CHN_2109" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 辽宁省 ==- 阜新市  -->
+    <GeoAssoc geoId="CHN_21" toGeoId="CHN_2110" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 辽宁省 ==- 辽阳市  -->
+    <GeoAssoc geoId="CHN_21" toGeoId="CHN_2111" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 辽宁省 ==- 盘锦市  -->
+    <GeoAssoc geoId="CHN_21" toGeoId="CHN_2112" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 辽宁省 ==- 铁岭市  -->
+    <GeoAssoc geoId="CHN_21" toGeoId="CHN_2113" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 辽宁省 ==- 朝阳市  -->
+    <GeoAssoc geoId="CHN_21" toGeoId="CHN_2114" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 辽宁省 ==- 葫芦岛市  -->
+    <GeoAssoc geoId="CHN_22" toGeoId="CHN_2201" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 吉林省 ==- 长春市  -->
+    <GeoAssoc geoId="CHN_22" toGeoId="CHN_2202" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 吉林省 ==- 吉林市  -->
+    <GeoAssoc geoId="CHN_22" toGeoId="CHN_2203" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 吉林省 ==- 四平市  -->
+    <GeoAssoc geoId="CHN_22" toGeoId="CHN_2204" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 吉林省 ==- 辽源市  -->
+    <GeoAssoc geoId="CHN_22" toGeoId="CHN_2205" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 吉林省 ==- 通化市  -->
+    <GeoAssoc geoId="CHN_22" toGeoId="CHN_2206" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 吉林省 ==- 白山市  -->
+    <GeoAssoc geoId="CHN_22" toGeoId="CHN_2207" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 吉林省 ==- 松原市  -->
+    <GeoAssoc geoId="CHN_22" toGeoId="CHN_2208" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 吉林省 ==- 白城市  -->
+    <GeoAssoc geoId="CHN_22" toGeoId="CHN_2224" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 吉林省 ==- 延边朝鲜族自治州  -->
+    <GeoAssoc geoId="CHN_23" toGeoId="CHN_2301" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 黑龙江省 ==- 哈尔滨市  -->
+    <GeoAssoc geoId="CHN_23" toGeoId="CHN_2302" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 黑龙江省 ==- 齐齐哈尔市  -->
+    <GeoAssoc geoId="CHN_23" toGeoId="CHN_2303" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 黑龙江省 ==- 鸡西市  -->
+    <GeoAssoc geoId="CHN_23" toGeoId="CHN_2304" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 黑龙江省 ==- 鹤岗市  -->
+    <GeoAssoc geoId="CHN_23" toGeoId="CHN_2305" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 黑龙江省 ==- 双鸭山市  -->
+    <GeoAssoc geoId="CHN_23" toGeoId="CHN_2306" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 黑龙江省 ==- 大庆市  -->
+    <GeoAssoc geoId="CHN_23" toGeoId="CHN_2307" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 黑龙江省 ==- 伊春市  -->
+    <GeoAssoc geoId="CHN_23" toGeoId="CHN_2308" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 黑龙江省 ==- 佳木斯市  -->
+    <GeoAssoc geoId="CHN_23" toGeoId="CHN_2309" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 黑龙江省 ==- 七台河市  -->
+    <GeoAssoc geoId="CHN_23" toGeoId="CHN_2310" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 黑龙江省 ==- 牡丹江市  -->
+    <GeoAssoc geoId="CHN_23" toGeoId="CHN_2311" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 黑龙江省 ==- 黑河市  -->
+    <GeoAssoc geoId="CHN_23" toGeoId="CHN_2312" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 黑龙江省 ==- 绥化市  -->
+    <GeoAssoc geoId="CHN_23" toGeoId="CHN_2327" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 黑龙江省 ==- 大兴安岭地区  -->
+    <GeoAssoc geoId="CHN_31" toGeoId="CHN_3101" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 上海市 ==- 市辖区  -->
+    <GeoAssoc geoId="CHN_31" toGeoId="CHN_3102" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 上海市 ==- 县  -->
+    <GeoAssoc geoId="CHN_32" toGeoId="CHN_3201" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 江苏省 ==- 南京市  -->
+    <GeoAssoc geoId="CHN_32" toGeoId="CHN_3202" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 江苏省 ==- 无锡市  -->
+    <GeoAssoc geoId="CHN_32" toGeoId="CHN_3203" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 江苏省 ==- 徐州市  -->
+    <GeoAssoc geoId="CHN_32" toGeoId="CHN_3204" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 江苏省 ==- 常州市  -->
+    <GeoAssoc geoId="CHN_32" toGeoId="CHN_3205" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 江苏省 ==- 苏州市  -->
+    <GeoAssoc geoId="CHN_32" toGeoId="CHN_3206" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 江苏省 ==- 南通市  -->
+    <GeoAssoc geoId="CHN_32" toGeoId="CHN_3207" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 江苏省 ==- 连云港市  -->
+    <GeoAssoc geoId="CHN_32" toGeoId="CHN_3208" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 江苏省 ==- 淮安市  -->
+    <GeoAssoc geoId="CHN_32" toGeoId="CHN_3209" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 江苏省 ==- 盐城市  -->
+    <GeoAssoc geoId="CHN_32" toGeoId="CHN_3210" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 江苏省 ==- 扬州市  -->
+    <GeoAssoc geoId="CHN_32" toGeoId="CHN_3211" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 江苏省 ==- 镇江市  -->
+    <GeoAssoc geoId="CHN_32" toGeoId="CHN_3212" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 江苏省 ==- 泰州市  -->
+    <GeoAssoc geoId="CHN_32" toGeoId="CHN_3213" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 江苏省 ==- 宿迁市  -->
+    <GeoAssoc geoId="CHN_33" toGeoId="CHN_3301" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 浙江省 ==- 杭州市  -->
+    <GeoAssoc geoId="CHN_33" toGeoId="CHN_3302" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 浙江省 ==- 宁波市  -->
+    <GeoAssoc geoId="CHN_33" toGeoId="CHN_3303" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 浙江省 ==- 温州市  -->
+    <GeoAssoc geoId="CHN_33" toGeoId="CHN_3304" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 浙江省 ==- 嘉兴市  -->
+    <GeoAssoc geoId="CHN_33" toGeoId="CHN_3305" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 浙江省 ==- 湖州市  -->
+    <GeoAssoc geoId="CHN_33" toGeoId="CHN_3306" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 浙江省 ==- 绍兴市  -->
+    <GeoAssoc geoId="CHN_33" toGeoId="CHN_3307" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 浙江省 ==- 金华市  -->
+    <GeoAssoc geoId="CHN_33" toGeoId="CHN_3308" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 浙江省 ==- 衢州市  -->
+    <GeoAssoc geoId="CHN_33" toGeoId="CHN_3309" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 浙江省 ==- 舟山市  -->
+    <GeoAssoc geoId="CHN_33" toGeoId="CHN_3310" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 浙江省 ==- 台州市  -->
+    <GeoAssoc geoId="CHN_33" toGeoId="CHN_3311" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 浙江省 ==- 丽水市  -->
+    <GeoAssoc geoId="CHN_34" toGeoId="CHN_3401" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 安徽省 ==- 合肥市  -->
+    <GeoAssoc geoId="CHN_34" toGeoId="CHN_3402" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 安徽省 ==- 芜湖市  -->
+    <GeoAssoc geoId="CHN_34" toGeoId="CHN_3403" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 安徽省 ==- 蚌埠市  -->
+    <GeoAssoc geoId="CHN_34" toGeoId="CHN_3404" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 安徽省 ==- 淮南市  -->
+    <GeoAssoc geoId="CHN_34" toGeoId="CHN_3405" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 安徽省 ==- 马鞍山市  -->
+    <GeoAssoc geoId="CHN_34" toGeoId="CHN_3406" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 安徽省 ==- 淮北市  -->
+    <GeoAssoc geoId="CHN_34" toGeoId="CHN_3407" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 安徽省 ==- 铜陵市  -->
+    <GeoAssoc geoId="CHN_34" toGeoId="CHN_3408" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 安徽省 ==- 安庆市  -->
+    <GeoAssoc geoId="CHN_34" toGeoId="CHN_3410" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 安徽省 ==- 黄山市  -->
+    <GeoAssoc geoId="CHN_34" toGeoId="CHN_3411" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 安徽省 ==- 滁州市  -->
+    <GeoAssoc geoId="CHN_34" toGeoId="CHN_3412" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 安徽省 ==- 阜阳市  -->
+    <GeoAssoc geoId="CHN_34" toGeoId="CHN_3413" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 安徽省 ==- 宿州市  -->
+    <GeoAssoc geoId="CHN_34" toGeoId="CHN_3415" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 安徽省 ==- 六安市  -->
+    <GeoAssoc geoId="CHN_34" toGeoId="CHN_3416" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 安徽省 ==- 亳州市  -->
+    <GeoAssoc geoId="CHN_34" toGeoId="CHN_3417" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 安徽省 ==- 池州市  -->
+    <GeoAssoc geoId="CHN_34" toGeoId="CHN_3418" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 安徽省 ==- 宣城市  -->
+    <GeoAssoc geoId="CHN_35" toGeoId="CHN_3501" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 福建省 ==- 福州市  -->
+    <GeoAssoc geoId="CHN_35" toGeoId="CHN_3502" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 福建省 ==- 厦门市  -->
+    <GeoAssoc geoId="CHN_35" toGeoId="CHN_3503" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 福建省 ==- 莆田市  -->
+    <GeoAssoc geoId="CHN_35" toGeoId="CHN_3504" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 福建省 ==- 三明市  -->
+    <GeoAssoc geoId="CHN_35" toGeoId="CHN_3505" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 福建省 ==- 泉州市  -->
+    <GeoAssoc geoId="CHN_35" toGeoId="CHN_3506" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 福建省 ==- 漳州市  -->
+    <GeoAssoc geoId="CHN_35" toGeoId="CHN_3507" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 福建省 ==- 南平市  -->
+    <GeoAssoc geoId="CHN_35" toGeoId="CHN_3508" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 福建省 ==- 龙岩市  -->
+    <GeoAssoc geoId="CHN_35" toGeoId="CHN_3509" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 福建省 ==- 宁德市  -->
+    <GeoAssoc geoId="CHN_36" toGeoId="CHN_3601" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 江西省 ==- 南昌市  -->
+    <GeoAssoc geoId="CHN_36" toGeoId="CHN_3602" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 江西省 ==- 景德镇市  -->
+    <GeoAssoc geoId="CHN_36" toGeoId="CHN_3603" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 江西省 ==- 萍乡市  -->
+    <GeoAssoc geoId="CHN_36" toGeoId="CHN_3604" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 江西省 ==- 九江市  -->
+    <GeoAssoc geoId="CHN_36" toGeoId="CHN_3605" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 江西省 ==- 新余市  -->
+    <GeoAssoc geoId="CHN_36" toGeoId="CHN_3606" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 江西省 ==- 鹰潭市  -->
+    <GeoAssoc geoId="CHN_36" toGeoId="CHN_3607" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 江西省 ==- 赣州市  -->
+    <GeoAssoc geoId="CHN_36" toGeoId="CHN_3608" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 江西省 ==- 吉安市  -->
+    <GeoAssoc geoId="CHN_36" toGeoId="CHN_3609" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 江西省 ==- 宜春市  -->
+    <GeoAssoc geoId="CHN_36" toGeoId="CHN_3610" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 江西省 ==- 抚州市  -->
+    <GeoAssoc geoId="CHN_36" toGeoId="CHN_3611" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 江西省 ==- 上饶市  -->
+    <GeoAssoc geoId="CHN_37" toGeoId="CHN_3701" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 山东省 ==- 济南市  -->
+    <GeoAssoc geoId="CHN_37" toGeoId="CHN_3702" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 山东省 ==- 青岛市  -->
+    <GeoAssoc geoId="CHN_37" toGeoId="CHN_3703" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 山东省 ==- 淄博市  -->
+    <GeoAssoc geoId="CHN_37" toGeoId="CHN_3704" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 山东省 ==- 枣庄市  -->
+    <GeoAssoc geoId="CHN_37" toGeoId="CHN_3705" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 山东省 ==- 东营市  -->
+    <GeoAssoc geoId="CHN_37" toGeoId="CHN_3706" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 山东省 ==- 烟台市  -->
+    <GeoAssoc geoId="CHN_37" toGeoId="CHN_3707" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 山东省 ==- 潍坊市  -->
+    <GeoAssoc geoId="CHN_37" toGeoId="CHN_3708" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 山东省 ==- 济宁市  -->
+    <GeoAssoc geoId="CHN_37" toGeoId="CHN_3709" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 山东省 ==- 泰安市  -->
+    <GeoAssoc geoId="CHN_37" toGeoId="CHN_3710" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 山东省 ==- 威海市  -->
+    <GeoAssoc geoId="CHN_37" toGeoId="CHN_3711" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 山东省 ==- 日照市  -->
+    <GeoAssoc geoId="CHN_37" toGeoId="CHN_3712" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 山东省 ==- 莱芜市  -->
+    <GeoAssoc geoId="CHN_37" toGeoId="CHN_3713" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 山东省 ==- 临沂市  -->
+    <GeoAssoc geoId="CHN_37" toGeoId="CHN_3714" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 山东省 ==- 德州市  -->
+    <GeoAssoc geoId="CHN_37" toGeoId="CHN_3715" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 山东省 ==- 聊城市  -->
+    <GeoAssoc geoId="CHN_37" toGeoId="CHN_3716" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 山东省 ==- 滨州市  -->
+    <GeoAssoc geoId="CHN_37" toGeoId="CHN_3717" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 山东省 ==- 菏泽市  -->
+    <GeoAssoc geoId="CHN_41" toGeoId="CHN_4101" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河南省 ==- 郑州市  -->
+    <GeoAssoc geoId="CHN_41" toGeoId="CHN_4102" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河南省 ==- 开封市  -->
+    <GeoAssoc geoId="CHN_41" toGeoId="CHN_4103" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河南省 ==- 洛阳市  -->
+    <GeoAssoc geoId="CHN_41" toGeoId="CHN_4104" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河南省 ==- 平顶山市  -->
+    <GeoAssoc geoId="CHN_41" toGeoId="CHN_4105" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河南省 ==- 安阳市  -->
+    <GeoAssoc geoId="CHN_41" toGeoId="CHN_4106" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河南省 ==- 鹤壁市  -->
+    <GeoAssoc geoId="CHN_41" toGeoId="CHN_4107" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河南省 ==- 新乡市  -->
+    <GeoAssoc geoId="CHN_41" toGeoId="CHN_4108" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河南省 ==- 焦作市  -->
+    <GeoAssoc geoId="CHN_41" toGeoId="CHN_4109" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河南省 ==- 濮阳市  -->
+    <GeoAssoc geoId="CHN_41" toGeoId="CHN_4110" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河南省 ==- 许昌市  -->
+    <GeoAssoc geoId="CHN_41" toGeoId="CHN_4111" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河南省 ==- 漯河市  -->
+    <GeoAssoc geoId="CHN_41" toGeoId="CHN_4112" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河南省 ==- 三门峡市  -->
+    <GeoAssoc geoId="CHN_41" toGeoId="CHN_4113" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河南省 ==- 南阳市  -->
+    <GeoAssoc geoId="CHN_41" toGeoId="CHN_4114" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河南省 ==- 商丘市  -->
+    <GeoAssoc geoId="CHN_41" toGeoId="CHN_4115" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河南省 ==- 信阳市  -->
+    <GeoAssoc geoId="CHN_41" toGeoId="CHN_4116" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河南省 ==- 周口市  -->
+    <GeoAssoc geoId="CHN_41" toGeoId="CHN_4117" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河南省 ==- 驻马店市  -->
+    <GeoAssoc geoId="CHN_41" toGeoId="CHN_4190" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 河南省 ==- 省直辖县级行政区划  -->
+    <GeoAssoc geoId="CHN_42" toGeoId="CHN_4201" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 湖北省 ==- 武汉市  -->
+    <GeoAssoc geoId="CHN_42" toGeoId="CHN_4202" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 湖北省 ==- 黄石市  -->
+    <GeoAssoc geoId="CHN_42" toGeoId="CHN_4203" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 湖北省 ==- 十堰市  -->
+    <GeoAssoc geoId="CHN_42" toGeoId="CHN_4205" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 湖北省 ==- 宜昌市  -->
+    <GeoAssoc geoId="CHN_42" toGeoId="CHN_4206" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 湖北省 ==- 襄阳市  -->
+    <GeoAssoc geoId="CHN_42" toGeoId="CHN_4207" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 湖北省 ==- 鄂州市  -->
+    <GeoAssoc geoId="CHN_42" toGeoId="CHN_4208" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 湖北省 ==- 荆门市  -->
+    <GeoAssoc geoId="CHN_42" toGeoId="CHN_4209" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 湖北省 ==- 孝感市  -->
+    <GeoAssoc geoId="CHN_42" toGeoId="CHN_4210" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 湖北省 ==- 荆州市  -->
+    <GeoAssoc geoId="CHN_42" toGeoId="CHN_4211" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 湖北省 ==- 黄冈市  -->
+    <GeoAssoc geoId="CHN_42" toGeoId="CHN_4212" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 湖北省 ==- 咸宁市  -->
+    <GeoAssoc geoId="CHN_42" toGeoId="CHN_4213" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 湖北省 ==- 随州市  -->
+    <GeoAssoc geoId="CHN_42" toGeoId="CHN_4228" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 湖北省 ==- 恩施土家族苗族自治州  -->
+    <GeoAssoc geoId="CHN_42" toGeoId="CHN_4290" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 湖北省 ==- 省直辖县级行政区划  -->
+    <GeoAssoc geoId="CHN_43" toGeoId="CHN_4301" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 湖南省 ==- 长沙市  -->
+    <GeoAssoc geoId="CHN_43" toGeoId="CHN_4302" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 湖南省 ==- 株洲市  -->
+    <GeoAssoc geoId="CHN_43" toGeoId="CHN_4303" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 湖南省 ==- 湘潭市  -->
+    <GeoAssoc geoId="CHN_43" toGeoId="CHN_4304" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 湖南省 ==- 衡阳市  -->
+    <GeoAssoc geoId="CHN_43" toGeoId="CHN_4305" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 湖南省 ==- 邵阳市  -->
+    <GeoAssoc geoId="CHN_43" toGeoId="CHN_4306" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 湖南省 ==- 岳阳市  -->
+    <GeoAssoc geoId="CHN_43" toGeoId="CHN_4307" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 湖南省 ==- 常德市  -->
+    <GeoAssoc geoId="CHN_43" toGeoId="CHN_4308" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 湖南省 ==- 张家界市  -->
+    <GeoAssoc geoId="CHN_43" toGeoId="CHN_4309" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 湖南省 ==- 益阳市  -->
+    <GeoAssoc geoId="CHN_43" toGeoId="CHN_4310" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 湖南省 ==- 郴州市  -->
+    <GeoAssoc geoId="CHN_43" toGeoId="CHN_4311" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 湖南省 ==- 永州市  -->
+    <GeoAssoc geoId="CHN_43" toGeoId="CHN_4312" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 湖南省 ==- 怀化市  -->
+    <GeoAssoc geoId="CHN_43" toGeoId="CHN_4313" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 湖南省 ==- 娄底市  -->
+    <GeoAssoc geoId="CHN_43" toGeoId="CHN_4331" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 湖南省 ==- 湘西土家族苗族自治州  -->
+    <GeoAssoc geoId="CHN_44" toGeoId="CHN_4401" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广东省 ==- 广州市  -->
+    <GeoAssoc geoId="CHN_44" toGeoId="CHN_4402" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广东省 ==- 韶关市  -->
+    <GeoAssoc geoId="CHN_44" toGeoId="CHN_4403" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广东省 ==- 深圳市  -->
+    <GeoAssoc geoId="CHN_44" toGeoId="CHN_4404" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广东省 ==- 珠海市  -->
+    <GeoAssoc geoId="CHN_44" toGeoId="CHN_4405" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广东省 ==- 汕头市  -->
+    <GeoAssoc geoId="CHN_44" toGeoId="CHN_4406" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广东省 ==- 佛山市  -->
+    <GeoAssoc geoId="CHN_44" toGeoId="CHN_4407" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广东省 ==- 江门市  -->
+    <GeoAssoc geoId="CHN_44" toGeoId="CHN_4408" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广东省 ==- 湛江市  -->
+    <GeoAssoc geoId="CHN_44" toGeoId="CHN_4409" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广东省 ==- 茂名市  -->
+    <GeoAssoc geoId="CHN_44" toGeoId="CHN_4412" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广东省 ==- 肇庆市  -->
+    <GeoAssoc geoId="CHN_44" toGeoId="CHN_4413" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广东省 ==- 惠州市  -->
+    <GeoAssoc geoId="CHN_44" toGeoId="CHN_4414" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广东省 ==- 梅州市  -->
+    <GeoAssoc geoId="CHN_44" toGeoId="CHN_4415" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广东省 ==- 汕尾市  -->
+    <GeoAssoc geoId="CHN_44" toGeoId="CHN_4416" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广东省 ==- 河源市  -->
+    <GeoAssoc geoId="CHN_44" toGeoId="CHN_4417" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广东省 ==- 阳江市  -->
+    <GeoAssoc geoId="CHN_44" toGeoId="CHN_4418" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广东省 ==- 清远市  -->
+    <GeoAssoc geoId="CHN_44" toGeoId="CHN_4419" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广东省 ==- 东莞市  -->
+    <GeoAssoc geoId="CHN_44" toGeoId="CHN_4420" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广东省 ==- 中山市  -->
+    <GeoAssoc geoId="CHN_44" toGeoId="CHN_4451" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广东省 ==- 潮州市  -->
+    <GeoAssoc geoId="CHN_44" toGeoId="CHN_4452" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广东省 ==- 揭阳市  -->
+    <GeoAssoc geoId="CHN_44" toGeoId="CHN_4453" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广东省 ==- 云浮市  -->
+    <GeoAssoc geoId="CHN_45" toGeoId="CHN_4501" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广西壮族自治区 ==- 南宁市  -->
+    <GeoAssoc geoId="CHN_45" toGeoId="CHN_4502" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广西壮族自治区 ==- 柳州市  -->
+    <GeoAssoc geoId="CHN_45" toGeoId="CHN_4503" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广西壮族自治区 ==- 桂林市  -->
+    <GeoAssoc geoId="CHN_45" toGeoId="CHN_4504" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广西壮族自治区 ==- 梧州市  -->
+    <GeoAssoc geoId="CHN_45" toGeoId="CHN_4505" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广西壮族自治区 ==- 北海市  -->
+    <GeoAssoc geoId="CHN_45" toGeoId="CHN_4506" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广西壮族自治区 ==- 防城港市  -->
+    <GeoAssoc geoId="CHN_45" toGeoId="CHN_4507" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广西壮族自治区 ==- 钦州市  -->
+    <GeoAssoc geoId="CHN_45" toGeoId="CHN_4508" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广西壮族自治区 ==- 贵港市  -->
+    <GeoAssoc geoId="CHN_45" toGeoId="CHN_4509" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广西壮族自治区 ==- 玉林市  -->
+    <GeoAssoc geoId="CHN_45" toGeoId="CHN_4510" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广西壮族自治区 ==- 百色市  -->
+    <GeoAssoc geoId="CHN_45" toGeoId="CHN_4511" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广西壮族自治区 ==- 贺州市  -->
+    <GeoAssoc geoId="CHN_45" toGeoId="CHN_4512" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广西壮族自治区 ==- 河池市  -->
+    <GeoAssoc geoId="CHN_45" toGeoId="CHN_4513" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广西壮族自治区 ==- 来宾市  -->
+    <GeoAssoc geoId="CHN_45" toGeoId="CHN_4514" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 广西壮族自治区 ==- 崇左市  -->
+    <GeoAssoc geoId="CHN_46" toGeoId="CHN_4601" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 海南省 ==- 海口市  -->
+    <GeoAssoc geoId="CHN_46" toGeoId="CHN_4602" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 海南省 ==- 三亚市  -->
+    <GeoAssoc geoId="CHN_46" toGeoId="CHN_4603" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 海南省 ==- 三沙市  -->
+    <GeoAssoc geoId="CHN_46" toGeoId="CHN_4690" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 海南省 ==- 省直辖县级行政区划  -->
+    <GeoAssoc geoId="CHN_50" toGeoId="CHN_5001" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 重庆市 ==- 市辖区  -->
+    <GeoAssoc geoId="CHN_50" toGeoId="CHN_5002" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 重庆市 ==- 县  -->
+    <GeoAssoc geoId="CHN_51" toGeoId="CHN_5101" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 四川省 ==- 成都市  -->
+    <GeoAssoc geoId="CHN_51" toGeoId="CHN_5103" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 四川省 ==- 自贡市  -->
+    <GeoAssoc geoId="CHN_51" toGeoId="CHN_5104" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 四川省 ==- 攀枝花市  -->
+    <GeoAssoc geoId="CHN_51" toGeoId="CHN_5105" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 四川省 ==- 泸州市  -->
+    <GeoAssoc geoId="CHN_51" toGeoId="CHN_5106" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 四川省 ==- 德阳市  -->
+    <GeoAssoc geoId="CHN_51" toGeoId="CHN_5107" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 四川省 ==- 绵阳市  -->
+    <GeoAssoc geoId="CHN_51" toGeoId="CHN_5108" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 四川省 ==- 广元市  -->
+    <GeoAssoc geoId="CHN_51" toGeoId="CHN_5109" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 四川省 ==- 遂宁市  -->
+    <GeoAssoc geoId="CHN_51" toGeoId="CHN_5110" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 四川省 ==- 内江市  -->
+    <GeoAssoc geoId="CHN_51" toGeoId="CHN_5111" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 四川省 ==- 乐山市  -->
+    <GeoAssoc geoId="CHN_51" toGeoId="CHN_5113" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 四川省 ==- 南充市  -->
+    <GeoAssoc geoId="CHN_51" toGeoId="CHN_5114" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 四川省 ==- 眉山市  -->
+    <GeoAssoc geoId="CHN_51" toGeoId="CHN_5115" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 四川省 ==- 宜宾市  -->
+    <GeoAssoc geoId="CHN_51" toGeoId="CHN_5116" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 四川省 ==- 广安市  -->
+    <GeoAssoc geoId="CHN_51" toGeoId="CHN_5117" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 四川省 ==- 达州市  -->
+    <GeoAssoc geoId="CHN_51" toGeoId="CHN_5118" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 四川省 ==- 雅安市  -->
+    <GeoAssoc geoId="CHN_51" toGeoId="CHN_5119" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 四川省 ==- 巴中市  -->
+    <GeoAssoc geoId="CHN_51" toGeoId="CHN_5120" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 四川省 ==- 资阳市  -->
+    <GeoAssoc geoId="CHN_51" toGeoId="CHN_5132" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 四川省 ==- 阿坝藏族羌族自治州  -->
+    <GeoAssoc geoId="CHN_51" toGeoId="CHN_5133" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 四川省 ==- 甘孜藏族自治州  -->
+    <GeoAssoc geoId="CHN_51" toGeoId="CHN_5134" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 四川省 ==- 凉山彝族自治州  -->
+    <GeoAssoc geoId="CHN_52" toGeoId="CHN_5201" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 贵州省 ==- 贵阳市  -->
+    <GeoAssoc geoId="CHN_52" toGeoId="CHN_5202" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 贵州省 ==- 六盘水市  -->
+    <GeoAssoc geoId="CHN_52" toGeoId="CHN_5203" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 贵州省 ==- 遵义市  -->
+    <GeoAssoc geoId="CHN_52" toGeoId="CHN_5204" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 贵州省 ==- 安顺市  -->
+    <GeoAssoc geoId="CHN_52" toGeoId="CHN_5205" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 贵州省 ==- 毕节市  -->
+    <GeoAssoc geoId="CHN_52" toGeoId="CHN_5206" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 贵州省 ==- 铜仁市  -->
+    <GeoAssoc geoId="CHN_52" toGeoId="CHN_5223" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 贵州省 ==- 黔西南布依族苗族自治州  -->
+    <GeoAssoc geoId="CHN_52" toGeoId="CHN_5226" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 贵州省 ==- 黔东南苗族侗族自治州  -->
+    <GeoAssoc geoId="CHN_52" toGeoId="CHN_5227" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 贵州省 ==- 黔南布依族苗族自治州  -->
+    <GeoAssoc geoId="CHN_53" toGeoId="CHN_5301" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 云南省 ==- 昆明市  -->
+    <GeoAssoc geoId="CHN_53" toGeoId="CHN_5303" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 云南省 ==- 曲靖市  -->
+    <GeoAssoc geoId="CHN_53" toGeoId="CHN_5304" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 云南省 ==- 玉溪市  -->
+    <GeoAssoc geoId="CHN_53" toGeoId="CHN_5305" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 云南省 ==- 保山市  -->
+    <GeoAssoc geoId="CHN_53" toGeoId="CHN_5306" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 云南省 ==- 昭通市  -->
+    <GeoAssoc geoId="CHN_53" toGeoId="CHN_5307" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 云南省 ==- 丽江市  -->
+    <GeoAssoc geoId="CHN_53" toGeoId="CHN_5308" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 云南省 ==- 普洱市  -->
+    <GeoAssoc geoId="CHN_53" toGeoId="CHN_5309" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 云南省 ==- 临沧市  -->
+    <GeoAssoc geoId="CHN_53" toGeoId="CHN_5323" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 云南省 ==- 楚雄彝族自治州  -->
+    <GeoAssoc geoId="CHN_53" toGeoId="CHN_5325" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 云南省 ==- 红河哈尼族彝族自治州  -->
+    <GeoAssoc geoId="CHN_53" toGeoId="CHN_5326" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 云南省 ==- 文山壮族苗族自治州  -->
+    <GeoAssoc geoId="CHN_53" toGeoId="CHN_5328" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 云南省 ==- 西双版纳傣族自治州  -->
+    <GeoAssoc geoId="CHN_53" toGeoId="CHN_5329" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 云南省 ==- 大理白族自治州  -->
+    <GeoAssoc geoId="CHN_53" toGeoId="CHN_5331" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 云南省 ==- 德宏傣族景颇族自治州  -->
+    <GeoAssoc geoId="CHN_53" toGeoId="CHN_5333" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 云南省 ==- 怒江傈僳族自治州  -->
+    <GeoAssoc geoId="CHN_53" toGeoId="CHN_5334" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 云南省 ==- 迪庆藏族自治州  -->
+    <GeoAssoc geoId="CHN_54" toGeoId="CHN_5401" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 西藏自治区 ==- 拉萨市  -->
+    <GeoAssoc geoId="CHN_54" toGeoId="CHN_5402" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 西藏自治区 ==- 日喀则市  -->
+    <GeoAssoc geoId="CHN_54" toGeoId="CHN_5421" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 西藏自治区 ==- 昌都地区  -->
+    <GeoAssoc geoId="CHN_54" toGeoId="CHN_5422" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 西藏自治区 ==- 山南地区  -->
+    <GeoAssoc geoId="CHN_54" toGeoId="CHN_5424" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 西藏自治区 ==- 那曲地区  -->
+    <GeoAssoc geoId="CHN_54" toGeoId="CHN_5425" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 西藏自治区 ==- 阿里地区  -->
+    <GeoAssoc geoId="CHN_54" toGeoId="CHN_5426" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 西藏自治区 ==- 林芝地区  -->
+    <GeoAssoc geoId="CHN_61" toGeoId="CHN_6101" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 陕西省 ==- 西安市  -->
+    <GeoAssoc geoId="CHN_61" toGeoId="CHN_6102" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 陕西省 ==- 铜川市  -->
+    <GeoAssoc geoId="CHN_61" toGeoId="CHN_6103" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 陕西省 ==- 宝鸡市  -->
+    <GeoAssoc geoId="CHN_61" toGeoId="CHN_6104" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 陕西省 ==- 咸阳市  -->
+    <GeoAssoc geoId="CHN_61" toGeoId="CHN_6105" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 陕西省 ==- 渭南市  -->
+    <GeoAssoc geoId="CHN_61" toGeoId="CHN_6106" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 陕西省 ==- 延安市  -->
+    <GeoAssoc geoId="CHN_61" toGeoId="CHN_6107" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 陕西省 ==- 汉中市  -->
+    <GeoAssoc geoId="CHN_61" toGeoId="CHN_6108" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 陕西省 ==- 榆林市  -->
+    <GeoAssoc geoId="CHN_61" toGeoId="CHN_6109" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 陕西省 ==- 安康市  -->
+    <GeoAssoc geoId="CHN_61" toGeoId="CHN_6110" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 陕西省 ==- 商洛市  -->
+    <GeoAssoc geoId="CHN_62" toGeoId="CHN_6201" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 甘肃省 ==- 兰州市  -->
+    <GeoAssoc geoId="CHN_62" toGeoId="CHN_6202" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 甘肃省 ==- 嘉峪关市  -->
+    <GeoAssoc geoId="CHN_62" toGeoId="CHN_6203" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 甘肃省 ==- 金昌市  -->
+    <GeoAssoc geoId="CHN_62" toGeoId="CHN_6204" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 甘肃省 ==- 白银市  -->
+    <GeoAssoc geoId="CHN_62" toGeoId="CHN_6205" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 甘肃省 ==- 天水市  -->
+    <GeoAssoc geoId="CHN_62" toGeoId="CHN_6206" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 甘肃省 ==- 武威市  -->
+    <GeoAssoc geoId="CHN_62" toGeoId="CHN_6207" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 甘肃省 ==- 张掖市  -->
+    <GeoAssoc geoId="CHN_62" toGeoId="CHN_6208" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 甘肃省 ==- 平凉市  -->
+    <GeoAssoc geoId="CHN_62" toGeoId="CHN_6209" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 甘肃省 ==- 酒泉市  -->
+    <GeoAssoc geoId="CHN_62" toGeoId="CHN_6210" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 甘肃省 ==- 庆阳市  -->
+    <GeoAssoc geoId="CHN_62" toGeoId="CHN_6211" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 甘肃省 ==- 定西市  -->
+    <GeoAssoc geoId="CHN_62" toGeoId="CHN_6212" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 甘肃省 ==- 陇南市  -->
+    <GeoAssoc geoId="CHN_62" toGeoId="CHN_6229" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 甘肃省 ==- 临夏回族自治州  -->
+    <GeoAssoc geoId="CHN_62" toGeoId="CHN_6230" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 甘肃省 ==- 甘南藏族自治州  -->
+    <GeoAssoc geoId="CHN_63" toGeoId="CHN_6301" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 青海省 ==- 西宁市  -->
+    <GeoAssoc geoId="CHN_63" toGeoId="CHN_6302" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 青海省 ==- 海东市  -->
+    <GeoAssoc geoId="CHN_63" toGeoId="CHN_6322" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 青海省 ==- 海北藏族自治州  -->
+    <GeoAssoc geoId="CHN_63" toGeoId="CHN_6323" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 青海省 ==- 黄南藏族自治州  -->
+    <GeoAssoc geoId="CHN_63" toGeoId="CHN_6325" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 青海省 ==- 海南藏族自治州  -->
+    <GeoAssoc geoId="CHN_63" toGeoId="CHN_6326" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 青海省 ==- 果洛藏族自治州  -->
+    <GeoAssoc geoId="CHN_63" toGeoId="CHN_6327" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 青海省 ==- 玉树藏族自治州  -->
+    <GeoAssoc geoId="CHN_63" toGeoId="CHN_6328" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 青海省 ==- 海西蒙古族藏族自治州  -->
+    <GeoAssoc geoId="CHN_64" toGeoId="CHN_6401" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 宁夏回族自治区 ==- 银川市  -->
+    <GeoAssoc geoId="CHN_64" toGeoId="CHN_6402" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 宁夏回族自治区 ==- 石嘴山市  -->
+    <GeoAssoc geoId="CHN_64" toGeoId="CHN_6403" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 宁夏回族自治区 ==- 吴忠市  -->
+    <GeoAssoc geoId="CHN_64" toGeoId="CHN_6404" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 宁夏回族自治区 ==- 固原市  -->
+    <GeoAssoc geoId="CHN_64" toGeoId="CHN_6405" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 宁夏回族自治区 ==- 中卫市  -->
+    <GeoAssoc geoId="CHN_65" toGeoId="CHN_6501" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 新疆维吾尔自治区 ==- 乌鲁木齐市  -->
+    <GeoAssoc geoId="CHN_65" toGeoId="CHN_6502" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 新疆维吾尔自治区 ==- 克拉玛依市  -->
+    <GeoAssoc geoId="CHN_65" toGeoId="CHN_6521" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 新疆维吾尔自治区 ==- 吐鲁番地区  -->
+    <GeoAssoc geoId="CHN_65" toGeoId="CHN_6522" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 新疆维吾尔自治区 ==- 哈密地区  -->
+    <GeoAssoc geoId="CHN_65" toGeoId="CHN_6523" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 新疆维吾尔自治区 ==- 昌吉回族自治州  -->
+    <GeoAssoc geoId="CHN_65" toGeoId="CHN_6527" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 新疆维吾尔自治区 ==- 博尔塔拉蒙古自治州  -->
+    <GeoAssoc geoId="CHN_65" toGeoId="CHN_6528" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 新疆维吾尔自治区 ==- 巴音郭楞蒙古自治州  -->
+    <GeoAssoc geoId="CHN_65" toGeoId="CHN_6529" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 新疆维吾尔自治区 ==- 阿克苏地区  -->
+    <GeoAssoc geoId="CHN_65" toGeoId="CHN_6530" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 新疆维吾尔自治区 ==- 克孜勒苏柯尔克孜自治州  -->
+    <GeoAssoc geoId="CHN_65" toGeoId="CHN_6531" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 新疆维吾尔自治区 ==- 喀什地区  -->
+    <GeoAssoc geoId="CHN_65" toGeoId="CHN_6532" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 新疆维吾尔自治区 ==- 和田地区  -->
+    <GeoAssoc geoId="CHN_65" toGeoId="CHN_6540" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 新疆维吾尔自治区 ==- 伊犁哈萨克自治州  -->
+    <GeoAssoc geoId="CHN_65" toGeoId="CHN_6542" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 新疆维吾尔自治区 ==- 塔城地区  -->
+    <GeoAssoc geoId="CHN_65" toGeoId="CHN_6543" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 新疆维吾尔自治区 ==- 阿勒泰地区  -->
+    <GeoAssoc geoId="CHN_65" toGeoId="CHN_6590" geoAssocTypeEnumId="GAT_REGIONS"/><!-- 新疆维吾尔自治区 ==- 自治区直辖县级行政区划  -->
+
+</entity-facade-xml>
