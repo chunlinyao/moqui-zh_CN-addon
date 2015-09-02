@@ -28,4 +28,11 @@
     <moqui.basic.LocalizedMessage localized="产品" lastUpdatedStamp="1439802740736" original="Products" locale="zh_CN"/>
     <moqui.basic.LocalizedMessage localized="产品" lastUpdatedStamp="1439802779073" original="Product" locale="zh_CN"/>
     <moqui.basic.LocalizedMessage localized="分类" lastUpdatedStamp="1439802819996" original="Categories" locale="zh_CN"/>
+
+    <!-- 婚姻状况 -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="MarsSingle" locale="zh" localized="未婚"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="MarsMarried" locale="zh" localized="已婚"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="MarsDivorced" locale="zh" localized="离婚"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="MarsWidow" locale="zh" localized="丧偶"/>
+
 </entity-facade-xml>
