@@ -28,11 +28,48 @@
     <moqui.basic.LocalizedMessage localized="产品" lastUpdatedStamp="1439802740736" original="Products" locale="zh_CN"/>
     <moqui.basic.LocalizedMessage localized="产品" lastUpdatedStamp="1439802779073" original="Product" locale="zh_CN"/>
     <moqui.basic.LocalizedMessage localized="分类" lastUpdatedStamp="1439802819996" original="Categories" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="移除" lastUpdatedStamp="1439802819996" original="Remove" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="保存" lastUpdatedStamp="1439802819996" original="Save" locale="zh_CN"/>
 
     <!-- 婚姻状况 -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="MarsSingle" locale="zh" localized="未婚"/>
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="MarsMarried" locale="zh" localized="已婚"/>
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="MarsDivorced" locale="zh" localized="离婚"/>
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="MarsWidow" locale="zh" localized="丧偶"/>
+
+    <moqui.basic.LocalizedMessage localized="北京市" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Beijing"/>
+    <moqui.basic.LocalizedMessage localized="天津市" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Tianjin"/>
+    <moqui.basic.LocalizedMessage localized="河北省" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Hebei"/>
+    <moqui.basic.LocalizedMessage localized="山西省" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Shanxi"/>
+    <moqui.basic.LocalizedMessage localized="内蒙古自治区" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Inner Mongolia"/>
+    <moqui.basic.LocalizedMessage localized="辽宁省" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Liaoning"/>
+    <moqui.basic.LocalizedMessage localized="吉林省" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Jilin"/>
+    <moqui.basic.LocalizedMessage localized="黑龙江省" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Heilongjiang"/>
+    <moqui.basic.LocalizedMessage localized="上海市" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Shanghai"/>
+    <moqui.basic.LocalizedMessage localized="江苏省" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Jiangsu"/>
+    <moqui.basic.LocalizedMessage localized="浙江省" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Zhejiang"/>
+    <moqui.basic.LocalizedMessage localized="安徽省" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Anhui"/>
+    <moqui.basic.LocalizedMessage localized="福建省" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Fujian"/>
+    <moqui.basic.LocalizedMessage localized="江西省" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Jiangxi"/>
+    <moqui.basic.LocalizedMessage localized="山东省" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Shandong"/>
+    <moqui.basic.LocalizedMessage localized="河南省" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Henan"/>
+    <moqui.basic.LocalizedMessage localized="湖北省" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Hubei"/>
+    <moqui.basic.LocalizedMessage localized="湖南省" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Hunan"/>
+    <moqui.basic.LocalizedMessage localized="广东省" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Guangdong"/>
+    <moqui.basic.LocalizedMessage localized="广西壮族自治区" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Guangxi"/>
+    <moqui.basic.LocalizedMessage localized="海南省" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Hainan"/>
+    <moqui.basic.LocalizedMessage localized="重庆市" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Chongqing"/>
+    <moqui.basic.LocalizedMessage localized="四川省" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Sichuan"/>
+    <moqui.basic.LocalizedMessage localized="贵州省" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Guizhou"/>
+    <moqui.basic.LocalizedMessage localized="云南省" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Yunnan"/>
+    <moqui.basic.LocalizedMessage localized="西藏自治区" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Xizang"/>
+    <moqui.basic.LocalizedMessage localized="陕西省" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Shaanxi"/>
+    <moqui.basic.LocalizedMessage localized="甘肃省" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Gansu"/>
+    <moqui.basic.LocalizedMessage localized="青海省" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Qinghai"/>
+    <moqui.basic.LocalizedMessage localized="宁夏回族自治区" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Ningxia"/>
+    <moqui.basic.LocalizedMessage localized="新疆维吾尔自治区" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Xinjiang"/>
+    <moqui.basic.LocalizedMessage localized="台湾省" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Taiwan"/>
+    <moqui.basic.LocalizedMessage localized="香港特别行政区" locale="zh_CN" lastUpdatedStamp="1439802819996" original="HongKong"/>
+    <moqui.basic.LocalizedMessage localized="澳门特别行政区" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Macao"/>
 
 </entity-facade-xml>
