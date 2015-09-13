@@ -31,11 +31,19 @@
     <moqui.basic.LocalizedMessage localized="移除" lastUpdatedStamp="1439802819996" original="Remove" locale="zh_CN"/>
     <moqui.basic.LocalizedMessage localized="保存" lastUpdatedStamp="1439802819996" original="Save" locale="zh_CN"/>
 
+    <moqui.basic.LocalizedMessage localized="开始日" lastUpdatedStamp="1439802819996" original="From Date" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="终了日" lastUpdatedStamp="1439802819996" original="Thru Date" locale="zh_CN"/>
+
     <!-- 婚姻状况 -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="MarsSingle" locale="zh" localized="未婚"/>
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="MarsMarried" locale="zh" localized="已婚"/>
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="MarsDivorced" locale="zh" localized="离婚"/>
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="MarsWidow" locale="zh" localized="丧偶"/>
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PtidResident" locale="zh" localized="身份证"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PtidPassport" locale="zh" localized="护照"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PtidDriverLicense" locale="zh" localized="驾驶证"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PtidSsn" locale="zh" localized="社保卡"/>
 
     <moqui.basic.LocalizedMessage localized="北京市" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Beijing"/>
     <moqui.basic.LocalizedMessage localized="天津市" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Tianjin"/>
@@ -71,5 +79,7 @@
     <moqui.basic.LocalizedMessage localized="台湾省" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Taiwan"/>
     <moqui.basic.LocalizedMessage localized="香港特别行政区" locale="zh_CN" lastUpdatedStamp="1439802819996" original="HongKong"/>
     <moqui.basic.LocalizedMessage localized="澳门特别行政区" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Macao"/>
+
+    <moqui.basic.LocalizedMessage localized="中国" locale="zh_CN" lastUpdatedStamp="1439802819996" original="China"/>
 
 </entity-facade-xml>
