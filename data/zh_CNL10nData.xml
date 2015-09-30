@@ -81,5 +81,6 @@
     <moqui.basic.LocalizedMessage localized="澳门特别行政区" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Macao"/>
 
     <moqui.basic.LocalizedMessage localized="中国" locale="zh_CN" lastUpdatedStamp="1439802819996" original="China"/>
+    <moqui.basic.LocalizedMessage localized="当前" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Current"/>
 
 </entity-facade-xml>

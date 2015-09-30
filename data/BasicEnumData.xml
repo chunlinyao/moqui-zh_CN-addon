@@ -14,4 +14,6 @@ along with this software (see the LICENSE.md file). If not, see
 <entity-facade-xml type="seed">
     <!-- 身份证 -->
     <moqui.basic.Enumeration description="Identity Card Of Residents" enumId="PtidResident" enumTypeId="PartyIdType"/>
+    <moqui.basic.Enumeration description="组织机构代码证" enumId="PtidOCofChina" enumTypeId="PartyIdType"/>
+    <moqui.basic.Enumeration description="税务登记证" enumId="PtidTaxofChina" enumTypeId="PartyIdType"/>
 </entity-facade-xml>
