@@ -30,6 +30,7 @@
     <moqui.basic.LocalizedMessage localized="分类" lastUpdatedStamp="1439802819996" original="Categories" locale="zh_CN"/>
     <moqui.basic.LocalizedMessage localized="移除" lastUpdatedStamp="1439802819996" original="Remove" locale="zh_CN"/>
     <moqui.basic.LocalizedMessage localized="保存" lastUpdatedStamp="1439802819996" original="Save" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="编辑" lastUpdatedStamp="1439802819996" original="Edit" locale="zh_CN"/>
 
     <moqui.basic.LocalizedMessage localized="开始日" lastUpdatedStamp="1439802819996" original="From Date" locale="zh_CN"/>
     <moqui.basic.LocalizedMessage localized="终了日" lastUpdatedStamp="1439802819996" original="Thru Date" locale="zh_CN"/>
