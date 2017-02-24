@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Simplified Chinese traslation for the moqui framework
+    Init By Will 2016-09-29
+-->
+<entity-facade-xml type="seed">
+    <!-- 数据字典Enumeration数据翻译 -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="DST_PURCHASED_DATA" locale="zh_CN" localized="采购来的数据"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="DST_CUSTOMER_ENTRY" locale="zh_CN" localized="客户录入数据"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="DST_INTERNAL_ENTRY" locale="zh_CN" localized="内部录入数据"/>
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GEOT_GROUP" locale="zh_CN" localized="组"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GEOT_REGION" locale="zh_CN" localized="区域"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GEOT_SALES_REGION" locale="zh_CN" localized="销售区域"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GEOT_SERVICE_REGION" locale="zh_CN" localized="服务区域"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GEOT_POSTAL_CODE" locale="zh_CN" localized="邮政编码"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GEOT_COUNTY" locale="zh_CN" localized="县"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GEOT_COUNTY_CITY" locale="zh_CN" localized="县级市"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GEOT_MUNICIPALITY" locale="zh_CN" localized="直辖市"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GEOT_PROVINCE" locale="zh_CN" localized="省"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GEOT_TERRITORY" locale="zh_CN" localized="特区"/>
+    <!--度量单位类型 -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="UT_CURRENCY_MEASURE" locale="zh_CN" localized="货币"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="UT_DATA_MEASURE" locale="zh_CN" localized="数据大小"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="UT_DATASPD_MEASURE" locale="zh_CN" localized="数据速度"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="UT_TIME_FREQ_MEASURE" locale="zh_CN" localized="时间/频率"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="UT_LENGTH_MEASURE" locale="zh_CN" localized="长度"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="UT_VELOCITY_MEASURE" locale="zh_CN" localized="速度"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="UT_AREA_MEASURE" locale="zh_CN" localized="面积"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="UT_VOLUME_LIQ_MEAS" locale="zh_CN" localized="容积"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="UT_VOLUME_DRY_MEAS" locale="zh_CN" localized="体积"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="UT_DENSITY_MEAS" locale="zh_CN" localized="密度"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="UT_WEIGHT_MEASURE" locale="zh_CN" localized="重量"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="UT_ENERGY_MEASURE" locale="zh_CN" localized="能量"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="UT_POWER_MEASURE" locale="zh_CN" localized="电力"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="UT_PRESSURE_MEASURE" locale="zh_CN" localized="压力"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="UT_TEMP_MEASURE" locale="zh_CN" localized="温度"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="UT_OTHER_MEASURE" locale="zh_CN" localized="其它度量类型"/>
+    <!-- 邮件类型 -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="EMT_SYSTEM" locale="zh_CN" localized="系统邮件"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="EMT_PWD_RESET" locale="zh_CN" localized="密码重置邮件"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="EMT_ERROR_NOTICE" locale="zh_CN" localized="错误提示邮件"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="EMT_REG_CONFIRM" locale="zh_CN" localized="注册确认邮件"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="EMT_UPD_INFO_CONFIRM" locale="zh_CN" localized="更新个人信息确认邮件"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="EMT_EMAIL_VERIFY" locale="zh_CN" localized="邮箱确认邮件"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="EMT_ACCOUNT_INVITE" locale="zh_CN" localized="账号注册邀请邮件"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="EMT_CONACT_US_NOT" locale="zh_CN" localized="联系我们通知邮件"/>
+
+    <!-- 状态Status数据翻译 -->
+
+    <!--度量单位|货币；参考CurrencyData.xml翻译些主要的-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="BTC" locale="zh_CN" localized="比特币"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="CNY" locale="zh_CN" localized="人民币"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="CAD" locale="zh_CN" localized="加币"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="AUD" locale="zh_CN" localized="澳币"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="EUR" locale="zh_CN" localized="欧币"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="HKD" locale="zh_CN" localized="港币"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="JPY" locale="zh_CN" localized="日币"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="MOP" locale="zh_CN" localized="澳门币"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="NZD" locale="zh_CN" localized="新西兰币"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="SGD" locale="zh_CN" localized="新加坡币"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="THB" locale="zh_CN" localized="泰铢"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="TWD" locale="zh_CN" localized="新台币"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="USD" locale="zh_CN" localized="美元"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="GBP" locale="zh_CN" localized="英镑"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="VND" locale="zh_CN" localized="越南盾"/>
+    <!--度量单位|除货币外其它；参考UnitData.xml。有翻译的必要???-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="DATA_b" locale="zh_CN" localized="比特"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="DATA_Kb" locale="zh_CN" localized="千比特"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="DATA_Mb" locale="zh_CN" localized="兆比特"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="DATA_Gb" locale="zh_CN" localized="吉比特"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="DATA_Tb" locale="zh_CN" localized="太比特"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="DATA_B" locale="zh_CN" localized="字节"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="DATA_KB" locale="zh_CN" localized="千字节"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="DATA_MB" locale="zh_CN" localized="兆字节"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="DATA_GB" locale="zh_CN" localized="吉字节"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="DATA_TB" locale="zh_CN" localized="太字节"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="DATA_PB" locale="zh_CN" localized="拍字节"/>
+
+    <!-- 数据库字段中文翻译 -->
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Data Source ID" localized="数据源ID"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Data Source Type" localized="数据源类型"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Description" localized="描述"/>
+    <!-- 其它entities,是否必要？-->
+
+
+    <!--框架代码里消息，错误信息翻译-->
+    <!-- UserServices里的翻译 -->
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Because of password errors not creating account with username ${username}" localized="因密码错误，没有创建账号${username}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Current password incorrect for user ${username}" localized="当前用户${username}密码错误"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="New Password and New Password Verify do not match" localized="两次录入的新密码不匹配"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Password shorter than ${minLength} characters" localized="密码不能少于${minLength}个字符"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Password needs ${minDigits} digit/number characters" localized="密码需要至少${minDigits}位数字字符"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Password needs ${minOthers} other characters (not letter or digit)" localized="密码需要至少${minOthers}位其它字符(非字母或数字)"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="New password is same as current password" localized="新密码不能与当前密码一致"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Password was used in last ${historyLimit} passwords" localized="密码已在前${historyLimit}次使用过"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Password updated for user ${userAccount.username}" localized="用户账号${userAccount.username}密码已更新"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Could not find account with username ${username}" localized="找不到用户名为${username}的账号"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Account with username ${username} does not have an email address" localized="用户名为${username}的账号没有设置电子邮箱"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="A reset password was sent by email to ${userAccount.emailAddress}. This password may only be used to change your password. Your current password is still valid." localized="重置密码已发送到邮箱${userAccount.emailAddress}，此重置密码仅做修改密码使用。你当前的密码仍然有效。"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="You must change your password before login." localized="登录前必须先修改密码"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Can only create initial admin account if there are no UserAccount records" localized="仅当没有任何账号时才能创建初始管理员账号"/>
+    <!-- SearchServices里的翻译 -->
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="No search implementation installed, not indexing DataDocuments (see the moqui-elasticsearch component)" localized="搜索模块未安装，无法索引DataDcouments(请先安装moqui-elasticsearch模块)"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="No search implementation installed, not putting DataDocument mappings (see the moqui-elasticsearch component)" localized="搜索模块未安装，无法映射DataDcouments(请先安装moqui-elasticsearch模块)"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="No search implementation installed, not indexing Wiki Space Pages (see the moqui-elasticsearch component)" localized="搜索模块未安装，无法索引WiKi页面(请先安装moqui-elasticsearch模块)"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="No search implementation installed, not searching DataDocuments (see the moqui-elasticsearch component)" localized="搜索模块未安装，无法搜索DataDocuments(请先安装moqui-elasticsearch模块)"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="No search implementation installed, not searching DataDocuments by source (see the moqui-elasticsearch component)" localized="搜索模块未安装，无法按源数据搜索DataDocuments(请先安装moqui-elasticsearch模块)"/>
+    <!-- MoquiShiroRealm.groovy的翻译 -->
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="No account found for username ${username}" localized="用户名${username}不存在"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Authenticate failed for user ${newUserAccount.username} because account is disabled and will not be re-enabled until ${reEnableTime} [DISTMP]." localized="账号${newUserAccount.username}已被临时禁用。请在${reEnableTime}之后再试。[DISTMP]"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Authenticate failed for user ${newUserAccount.username} because account is disabled and is not schedule to be automatically re-enabled [DISPRM]." localized="账号${newUserAccount.username}已被永久禁用。[DISTMP]"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Authenticate failed for user [${newUserAccount.username}] because account requires password change [PWDCHG]." localized="账号${newUserAccount.username}需修改密码。[DISTMP]"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Authenticate failed for user ${newUserAccount.username} because password was changed ${wksSinceChange} weeks ago and must be changed every ${changeWeeks} weeks [PWDTIM]." localized="账号${newUserAccount.username}的密码上次修改已是${wksSinceChange}星期以前，必须每${changeWeeks}星期修改一次。[DISTMP]"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Username ${username} and/or password incorrect" localized="用户名${username} 和/或者 密码错误"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="User ${username} does not have permission ${permission}" localized="用户${username}没有权限${permission}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="User ${principalCollection.primaryPrincipal} is not in role ${roleName}" localized="用户${principalCollection.primaryPrincipal}不属于${roleName}角色"/>
+    <!-- pollEmailServer.groovy的翻译 -->
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="No EmailServer found for ID [${emailServerId}]" localized="找不到对应ID为${emailServerId}的EmailServer记录"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="EmailServer [${emailServerId}] has no storeHost" localized="EmailServer [${emailServerId}]未定义邮箱主机地址"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="EmailServer [${emailServerId}] has no mailUsername" localized="EmailServer [${emailServerId}]未定义邮箱用户名"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="EmailServer [${emailServerId}] has no mailPassword" localized="EmailServer [${emailServerId}]未定义邮箱密码"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="No ${storeFolder} folder found" localized="找不到邮件主机上的文件夹${storeFolder}"/>
+    <!-- sendEmailTemplate.groovy的翻译 -->
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="No EmailTemplate record found for ID [${emailTemplateId}]" localized="邮件模板记录EmailTemplate[${emailTemplateId}]未定义"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="No EmailServer record found for EmailTemplate [${emailTemplateId}]" localized="邮件模板EmailTemplate[${emailTemplateId}]中定义的邮件服务器未定义"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="SMTP Host is empty for EmailServer [${emailServer.emailServerId}]" localized="邮件服务器EmailServer [${emailServer.emailServerId}]设置中的SMTP主机不能为空"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="From address is empty for EmailTemplate [${emailTemplateId}]" localized="邮件模板EmailTemplate [${emailTemplateId}]设置中的From地址不能为空"/>
+    <!-- EntityDataDocument.groovy的翻译 -->
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="File ${filename} already exists." localized="文件 ${filename}已经存在。"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Wrote ${valuesWritten} documents to file ${filename}" localized="已把${valuesWritten}文档写进了文件${filename}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Path ${dirname} is not a directory." localized="路径${dirname}必须是个目录"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="File ${filename} already exists, skipping document ${dataDocumentId}." localized="文件 ${filename}已存在,跳过文档${dataDocumentId}."/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Wrote ${valuesWritten} records to file ${filename}" localized="已把${valuesWritten}记录写进了文件${filename}"/>
+    <!-- EntityDataWriterImpl.groovy的翻译 -->
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Path ${path} is not a directory." localized="路径${path}必须是个目录"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="File ${filename} already exists, skipping entity ${en}." localized="文件 ${filename}已存在,跳过实体${en}."/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Wrote ${curValuesWritten} records to file ${filename}" localized="已把${curValuesWritten}记录写进了文件${filename}"/>
+    <!-- ScreenDefinition.groovy的翻译 -->
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Condition failed for transition [${location}], not running actions or redirecting" localized="transition [${location}]中条件未通过, 不能运行actions处理或者redirecting跳转"/>
+    <!-- ScreenRenderImpl.groovy的翻译 -->
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Required parameter missing (${pi.name})" localized="必填变量(${pi.name})缺失!"/>
+    <!-- BaseResourceReference.groovy的翻译 -->
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Not looking for child file at [${relativePath}] under space root page [${location}] because exists, isFile, etc are not supported" localized="因不支持 exists, isFile,等等，未进行在根页面[${location}]下的目录[${relativePath}]查找子文件"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Not looking for child directory at [${relativePath}] under space root page [${location}] because exists, isFile, etc are not supported" localized="因不支持 exists, isFile等等，未进行在根页面[${location}]下的目录[${relativePath}]查找子目录"/>
+    <!-- RemoteJsonRpcServiceRunner.groovy的翻译 -->
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Error parsing JSON-RPC response for service [${serviceName ?: method}]: ${t.toString()}" localized="解析服务[${serviceName ?: method}]的JSON-RPC返回结果错误 : ${t.toString()}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="JSON-RPC error with no message, code [${responseMap.error?.code}]" localized="JSON-RPC无消息错误, 代码[${responseMap.error?.code}]"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="JSON-RPC response was not a object/Map for service [${serviceName ?: method}]: ${jsonObj}" localized="服务[${serviceName ?: method}]的JSON-RPC的返回不是object或者Map: ${jsonObj}"/>
+</entity-facade-xml>
