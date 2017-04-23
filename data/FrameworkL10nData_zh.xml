@@ -147,4 +147,10 @@
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Error parsing JSON-RPC response for service [${serviceName ?: method}]: ${t.toString()}" localized="解析服务[${serviceName ?: method}]的JSON-RPC返回结果错误 : ${t.toString()}"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="JSON-RPC error with no message, code [${responseMap.error?.code}]" localized="JSON-RPC无消息错误, 代码[${responseMap.error?.code}]"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="JSON-RPC response was not a object/Map for service [${serviceName ?: method}]: ${jsonObj}" localized="服务[${serviceName ?: method}]的JSON-RPC的返回不是object或者Map: ${jsonObj}"/>
+    <!-- ServiceDefinition.groovy -->
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Value entered (${parameterValue}) failed ${valNode.name} validation: ${t.message}" localized="${valNode.name} 输入的 ${parameterValue} 有错误：${t.message}" />
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Field cannot be empty" localized="输入不能为空" />
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Value [${pv}] is not a whole (integer) number." localized="值 [${pv}] 不是一个整数" />
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Value [${pv}] is not a decimal number." localized="值 [${pv}] 不是一个数字" />
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Value entered ({0}) could not be converted to a {1}{2,choice,0#|1# using format [}{3}{2,choice,0#|1#]}" localized="值 ({0}) 不能{2,choice,0#|1# 按照格式 [}{3}{2,choice,0#|1#]}{3}{2,choice,0#|1#]}转化为{1}" />
 </entity-facade-xml>
