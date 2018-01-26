@@ -8,8 +8,14 @@
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Cancel" localized="取消"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Save" localized="保存"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Find Options" localized="查找选项"/>
-    <moqui.basic.LocalizedMessage locale="zh_CN" original="Saved Finds" localized="已保存查找变量"/>
-    <moqui.basic.LocalizedMessage locale="zh_CN" original="Save New Find" localized="保存新的查找变量"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Saved Finds" localized="已保存查找"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Save New Find" localized="保存新的查找"/>
+    <moqui.basic.LocalizedMessage localized="不显示" original="Do Not Display" locale="zh" />
+    <moqui.basic.LocalizedMessage localized="列" original="Column" locale="zh" />
+    <moqui.basic.LocalizedMessage localized="(升)" original="(Asc)" locale="zh" />
+    <moqui.basic.LocalizedMessage localized="(降)" original="(Desc)" locale="zh" />
+    <moqui.basic.LocalizedMessage localized="拖放列调整顺序，或拖到不显示。" original="Drag fields to the desired column or do not display" locale="zh" />
+    <moqui.basic.LocalizedMessage localized="当前使用的查找:" original="Active Saved Find:" locale="zh" />
     <moqui.basic.LocalizedMessage locale="zh_CN" original="No find parameters, choose some to save a new find or update existing" localized="没有查找变量，先选择查找变量进行保存或者更新现有的"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Update to Current" localized="更新到当前"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Delete" localized="删除"/>
