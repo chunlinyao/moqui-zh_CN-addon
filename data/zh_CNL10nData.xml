@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <entity-facade-xml type="seed">
     <moqui.basic.LocalizedMessage localized="程序" lastUpdatedStamp="1439791417112" original="Application" locale="zh_CN"/>
+    <moqui.basic.LocalizedMessage localized="程序" lastUpdatedStamp="1439791417112" original="Applications" locale="zh_CN"/>
     <moqui.basic.LocalizedMessage localized="查找选项" lastUpdatedStamp="1439791562830" original="Find Options" locale="zh_CN"/>
     <moqui.basic.LocalizedMessage localized="POP Commerce管理" lastUpdatedStamp="1439791750578" original="POP Commerce Admin" locale="zh_CN"/>
     <moqui.basic.LocalizedMessage localized="产品类型" lastUpdatedStamp="1439791805458" original="Product Type" locale="zh_CN"/>
@@ -34,26 +35,6 @@
 
     <moqui.basic.LocalizedMessage localized="开始日" lastUpdatedStamp="1439802819996" original="From Date" locale="zh_CN"/>
     <moqui.basic.LocalizedMessage localized="终了日" lastUpdatedStamp="1439802819996" original="Thru Date" locale="zh_CN"/>
-
-    <!-- 婚姻状况 -->
-    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="MarsSingle" locale="zh_CN" localized="未婚"/>
-    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="MarsMarried" locale="zh_CN" localized="已婚"/>
-    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="MarsDivorced" locale="zh_CN" localized="离婚"/>
-    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="MarsWidow" locale="zh_CN" localized="丧偶"/>
-
-    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PtidResident" locale="zh_CN" localized="身份证"/>
-    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PtidPassport" locale="zh_CN" localized="护照"/>
-    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PtidDriverLicense" locale="zh_CN" localized="驾驶证"/>
-    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PtidSsn" locale="zh_CN" localized="社保卡"/>
-
-    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="InVrLost" locale="zh_CN" localized="丢失"/>
-    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="InVrStolen" locale="zh_CN" localized="失窃"/>
-    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="InVrFound" locale="zh_CN" localized="找到"/>
-    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="InVrDamaged" locale="zh_CN" localized="损坏"/>
-    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="InVrIntegration" locale="zh_CN" localized="结合"/>
-    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="InVrSample" locale="zh_CN" localized="取样"/>
-    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="InVrMisShipOrdered" locale="zh_CN" localized="错收"/>
-    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="InVrMisShipShipped" locale="zh_CN" localized="错发出"/>
 
     <moqui.basic.LocalizedMessage localized="北京市" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Beijing"/>
     <moqui.basic.LocalizedMessage localized="天津市" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Tianjin"/>
