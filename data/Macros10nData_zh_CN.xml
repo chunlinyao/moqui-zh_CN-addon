@@ -57,4 +57,5 @@
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Begins With" localized="以...开始"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Empty" localized="为空"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Ignore Case" localized="忽略大小写"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Clear Parameters" localized="清空参数" />
 </entity-facade-xml>
