@@ -75,4 +75,31 @@
     <moqui.basic.LocalizedMessage localized="当前" locale="zh_CN" lastUpdatedStamp="1439802819996" original="Current"/>
 
 
+    <!--/my 个人画面部分-->
+    <moqui.basic.LocalizedMessage original="My Account" localized="我的账号" locale="zh_CN" />
+    <moqui.basic.LocalizedMessage original="User" localized="用户" locale="zh_CN" />
+    <moqui.basic.LocalizedMessage original="Notifications" localized="通知" locale="zh_CN" />
+    <moqui.basic.LocalizedMessage original="Account" localized="账号" locale="zh_CN" />
+    <moqui.basic.LocalizedMessage original="Topic Subscriptions" localized="主题订阅" locale="zh_CN" />
+    <moqui.basic.LocalizedMessage original="Select" localized="选择" locale="zh_CN" />
+    <moqui.basic.LocalizedMessage original="Message" localized="消息" locale="zh_CN" />
+    <moqui.basic.LocalizedMessage original="Topic" localized="主题" locale="zh_CN" />
+    <moqui.basic.LocalizedMessage original="Sent" localized="发送" locale="zh_CN" />
+    <moqui.basic.LocalizedMessage original="Notified" localized="已通知" locale="zh_CN" />
+    <moqui.basic.LocalizedMessage original="Viewed" localized="已读" locale="zh_CN" />
+    <moqui.basic.LocalizedMessage original="Mark Viewed" localized="标记为已读" locale="zh_CN" />
+    <moqui.basic.LocalizedMessage original="Show Viewed" localized="显示已读" locale="zh_CN" />
+    <moqui.basic.LocalizedMessage original="Hide Viewed" localized="隐藏已读" locale="zh_CN" />
+    <moqui.basic.LocalizedMessage original="Receive" localized="接收" locale="zh_CN" />
+    <moqui.basic.LocalizedMessage original="Change Password" localized="修改密码" locale="zh_CN" />
+    <moqui.basic.LocalizedMessage original="Username" localized="用户名" locale="zh_CN" />
+    <moqui.basic.LocalizedMessage original="First Name" localized="名" locale="zh_CN" />
+    <moqui.basic.LocalizedMessage original="Middle Name" localized="中名" locale="zh_CN" />
+    <moqui.basic.LocalizedMessage original="Last Name" localized="姓" locale="zh_CN" />
+    <moqui.basic.LocalizedMessage original="Email Address" localized="邮箱" locale="zh_CN" />
+    <moqui.basic.LocalizedMessage original="Locale" localized="语言" locale="zh_CN" />
+    <moqui.basic.LocalizedMessage original="Time Zone" localized="时区" locale="zh_CN" />
+    <moqui.basic.LocalizedMessage original="Old Password" localized="就密码" locale="zh_CN" />
+    <moqui.basic.LocalizedMessage original="New Password" localized="新密码" locale="zh_CN" />
+    <moqui.basic.LocalizedMessage original="New Password Verify" localized="新密码确认" locale="zh_CN" />
 </entity-facade-xml>
