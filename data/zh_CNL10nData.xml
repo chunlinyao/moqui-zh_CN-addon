@@ -127,4 +127,5 @@
     <moqui.basic.LocalizedMessage original="Password" localized="密码" locale="zh_CN" />
     <moqui.basic.LocalizedMessage original="Password Verify" localized="密码确认" locale="zh_CN" />
     <moqui.basic.LocalizedMessage original="Not Applicable" localized="不适用" locale="zh_CN" />
+    <moqui.basic.LocalizedMessage original="Req PW Change" localized="要求更改密码" locale="zh_CN" />
 </entity-facade-xml>
