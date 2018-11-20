@@ -99,7 +99,7 @@
     <moqui.basic.LocalizedMessage original="Email Address" localized="邮箱" locale="zh_CN" />
     <moqui.basic.LocalizedMessage original="Locale" localized="语言" locale="zh_CN" />
     <moqui.basic.LocalizedMessage original="Time Zone" localized="时区" locale="zh_CN" />
-    <moqui.basic.LocalizedMessage original="Old Password" localized="就密码" locale="zh_CN" />
+    <moqui.basic.LocalizedMessage original="Old Password" localized="旧密码" locale="zh_CN" />
     <moqui.basic.LocalizedMessage original="New Password" localized="新密码" locale="zh_CN" />
     <moqui.basic.LocalizedMessage original="New Password Verify" localized="新密码确认" locale="zh_CN" />
 
