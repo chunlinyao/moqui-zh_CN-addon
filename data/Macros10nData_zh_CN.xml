@@ -58,4 +58,7 @@
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Empty" localized="为空"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Ignore Case" localized="忽略大小写"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Clear Parameters" localized="清空参数" />
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Active Saved Find:" localized="现行查询:" />
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Show All" localized="显示全部" />
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Paginate" localized="分页" />
 </entity-facade-xml>
