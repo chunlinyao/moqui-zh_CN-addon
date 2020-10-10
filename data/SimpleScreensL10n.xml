@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-facade-xml type="seed">
+    <moqui.basic.LocalizedMessage locale="zh_CN"
+                                  original="${ec.resource.expand('PartyNameOnlyTemplate','',msgFrom)} at ${ec.l10n.format(nodeList_entry?.entryDate, 'yyyy-MM-dd HH:mm')} (${statusItem?.description})"
+                                  localized="${ec.resource.expand('PartyNameOnlyTemplate','',msgFrom)}发送于${ec.l10n.format(nodeList_entry?.entryDate, 'yyyy-MM-dd HH:mm')}" />
+
+    <moqui.basic.LocalizedMessage locale="zh_CN"
+                                  original="From ${ec.resource.expand('PartyNameTemplate','',fromParty)},"
+                                  localized="发信人：${ec.resource.expand('PartyNameTemplate','',fromParty)} " />
+    <moqui.basic.LocalizedMessage locale="zh_CN"
+                                  original="to ${ec.resource.expand('PartyNameTemplate','',toParty)}"
+                                  localized="收信人：${ec.resource.expand('PartyNameTemplate','',toParty)} " />
+    <moqui.basic.LocalizedMessage locale="zh_CN"
+                                  original="at ${ec.l10n.format(commEvent?.entryDate, 'yyyy-MM-dd HH:mm')}"
+                                  localized="时间：${ec.l10n.format(commEvent?.entryDate, 'yyyy-MM-dd HH:mm')}" />
+
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Reply" localized="回复" />
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Subject" localized="主题" />
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Thread" localized="线索" />
+</entity-facade-xml>
