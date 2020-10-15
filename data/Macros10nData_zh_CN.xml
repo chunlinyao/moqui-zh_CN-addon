@@ -61,4 +61,6 @@
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Active Saved Find:" localized="现行查询:" />
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Show All" localized="显示全部" />
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Paginate" localized="分页" />
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="No results found" localized="未找到数据" />
+
 </entity-facade-xml>
