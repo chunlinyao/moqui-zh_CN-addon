@@ -62,5 +62,10 @@
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Show All" localized="显示全部" />
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Paginate" localized="分页" />
     <moqui.basic.LocalizedMessage locale="zh_CN" original="No results found" localized="未找到数据" />
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Find Options required to view results" localized="必须输入查询条件进行查找"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Documentation" localized="文档"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Close" localized="关闭"/>
+
+
 
 </entity-facade-xml>
