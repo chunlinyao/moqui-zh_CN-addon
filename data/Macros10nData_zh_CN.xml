@@ -52,7 +52,7 @@
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Year" localized="年"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Not" localized="不"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Equals" localized="等于"/>
-    <moqui.basic.LocalizedMessage locale="zh_CN" original="Like" localized="Like"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Like" localized="匹配"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Contains" localized="包含"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Begins With" localized="以...开始"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Empty" localized="为空"/>
